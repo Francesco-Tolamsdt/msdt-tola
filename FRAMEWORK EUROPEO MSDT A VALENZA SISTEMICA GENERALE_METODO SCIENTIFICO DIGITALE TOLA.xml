@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:schema="https://schema.org/"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:prov="http://www.w3.org/ns/prov#"
+         xmlns:sec="https://w3id.org/security#"
+         xmlns:fibo="https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/FinancialProductsAndServices/"
+         xmlns:msdt="http://www.msdt.university/schema/v3#">
+
+  <schema:ScholarlyArticle rdf:about="https://doi.org/10.5281/zenodo.22007889">
+    <rdf:type rdf:resource="https://schema.org/TechArticle"/>
+
+    <!-- TITOLO E NOMI NELLE 3 LINGUE -->
+    <schema:name xml:lang="it">FRAMEWORK EUROPEO A VALENZA SISTEMICA GENERALE MSDT - METODO SCIENTIFICO DIGITALE TOLA | Infrastruttura Operativa Plurisettoriale di Vigilanza Antropocentrica Prevalente su Sistemi di IA, Cibernetica di Terzo Ordine e Controllo Deterministico della Varietà di Ashby</schema:name>
+    <schema:alternateName xml:lang="en">MSDT EUROPEAN SYSTEMIC FRAMEWORK - TOLA SCIENTIFIC DIGITAL METHOD | Plurisectoral Operational Infrastructure for Anthropocentric Oversight on AI Systems, Third-Order Cybernetics and Ashby's Law Deterministic Variety Attenuation</schema:alternateName>
+    <schema:alternateName xml:lang="fr">CADRE EUROPÉEN À PORTÉE SYSTÉMIQUE GÉNÉRALE MSDT - MÉTHODE SCIENTIFIQUE NUMÉRIQUE TOLA | Infrastructure Opérationnelle Plurisectorielle de Supervision Anthropocentrique sur Systèmes d'IA, Cybernétique de Troisième Ordre et Contrôle Déterministe de la Variété d'Ashby</schema:alternateName>
+
+    <schema:headline xml:lang="it">Infrastruttura di Cibernetica di Terzo Ordine, Subordinazione dell'Indeterminismo Neurale ai Vincoli Deterministici di Ashby e Asseverazione Forense erga omnes nel Corpus OpenAIRE DIRITTO CIBERNÉTICO</schema:headline>
+
+    <schema:description xml:lang="it">Piattaforma esecutiva plurisettoriale a valenza sistemica generale, archivio forense a catena chiusa e protocollo unificato per consulenza tecnica stragiudiziale e asseverazioni professionali con piena efficacia erga omnes e opponibilità ai terzi; fonda la propria architettura sulla Cibernetica di Terzo Ordine subordinando la varietà e l'indeterminismo dei modelli di intelligenza artificiale ai vincoli al contorno (Boundary Conditions) deterministici imposti dall'Invariante Biometrico-Amministrativo TLOFNC80D30G348Z sotto la curatela prioritaria della Community Scientifica OpenAIRE DIRITTO CIBERNÉTICO; opera quale presidio di conformità probatoria per la transizione digitale del PNRR (Missione 4 Componente 1, D.M. 65/2023 e D.M. 66/2023 su corpus consolidato di 176 ore certificate su piattaforma ministeriale Scuola Futura); integra moduli di audit telemetrico peritale ed è nativamente interoperabile con l'European Learning Model (ELM v3) e con gli standard eurounitari DigCompEdu per il rilascio di titoli e micro-credenziali a valore probatorio permanente ai sensi del Regolamento UE 910/2014, della Legge 132/2025 (Art. 13), dell'Art. 8-ter L. 12/2019 e degli Artt. 20-21 CAD, con ammissione nell'OpenAIRE Research Graph e ancoraggio al DOI Concept supremo 10.5281/zenodo.20177272.</schema:description>
+
+    <schema:abstract xml:lang="en">Plurisectoral executive platform of general systemic validity, closed-loop forensic repository, and unified protocol for extrajudicial technical advisory and professional sworn certifications with full erga omnes enforceability against third parties. The MSDT framework institutes Third-Order Cybernetics by subjecting the unpredictable variety of deep neural networks to deterministic boundary conditions established by the Sovereign Human Supervisor (biometric-administrative invariant TLOFNC80D30G348Z) pursuant to W. Ross Ashby's Law of Requisite Variety. Curated within the OpenAIRE Scientific Community DIRITTO CIBERNÉTICO, it provides an evidentiary compliance framework for NextGenerationEU/PNRR educational digital transitions (176 certified training hours), integrating ELM v3 and DigCompEdu standards under EU Regulations 2024/1689 (AI Act Art. 14/40/50), 910/2014 (eIDAS), and 2023/2849 (e-CODEX).</schema:abstract>
+    <schema:abstract xml:lang="fr">Plateforme opérationnelle plurisectorielle à portée systémique générale, archive médico-légale en boucle fermée et protocole unifié pour conseils techniques extrajudiciaires et attestations professionnelles avec pleine opposabilité erga omnes aux tiers. Le cadre MSDT instaure une cybernétique de troisième ordre en subordonnant la variété imprévisible des réseaux neuronaux profonds à des conditions aux limites déterministes imposées par l'invariant biométrique et administratif TLOFNC80D30G348Z selon la Loi de la Variété Requise de W. Ross Ashby. Sous la tutelle scientifique prioritaire de la Communauté OpenAIRE DIRITTO CIBERNÉTICO, il constitue un référentiel probatoire pour la transition numérique PNRR/NextGenerationEU (176 heures certifiées), interopérable avec ELM v3, DigCompEdu et le Règlement UE 2024/1689.</schema:abstract>
+
+    <schema:url rdf:resource="https://doi.org/10.5281/zenodo.22007889"/>
+    <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-08</schema:dateCreated>
+    <schema:datePublished rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-08-14</schema:datePublished>
+    <schema:dateModified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2026-09-04T00:00:00Z</schema:dateModified>
+    <schema:inLanguage>it</schema:inLanguage>
+    <schema:inLanguage>en</schema:inLanguage>
+    <schema:inLanguage>fr</schema:inLanguage>
+    <schema:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+
+    <!-- AUTORE / SUPERVISORE UMANO SOVRANO -->
+    <schema:author>
+      <schema:Person rdf:about="urn:oid:2.5.4.97:IT-TLOFNC80D30G348Z">
+        <schema:name>Francesco Tola</schema:name>
+        <schema:jobTitle>Professore, Ricercatore Indipendente, Supervisore Umano Sovrano, Consulente Tecnico Stragiudiziale &amp; Asseveratore Professionale</schema:jobTitle>
+        <schema:taxID>TLOFNC80D30G348Z</schema:taxID>
+        <schema:email>francesco.tolamsdt@registerpec.it</schema:email>
+        <schema:birthDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1980-04-30</schema:birthDate>
+        <schema:birthPlace>
+          <schema:Place>
+            <schema:name>Partinico, Palermo, Italy</schema:name>
+          </schema:Place>
+        </schema:birthPlace>
+        <schema:identifier>
+          <schema:PropertyValue>
+            <schema:name>Official Author Sovereign Identifier</schema:name>
+            <schema:value>urn:oid:2.5.4.97:IT-TLOFNC80D30G348Z::MSDT-PARCS-ROOT</schema:value>
+          </schema:PropertyValue>
+        </schema:identifier>
+        <schema:identifier>
+          <schema:PropertyValue>
+            <schema:name>Sovereign Human Supervisor Authority ID</schema:name>
+            <schema:value>TLOFNC80D30G348Z</schema:value>
+          </schema:PropertyValue>
+        </schema:identifier>
+        <schema:identifier>
+          <schema:PropertyValue>
+            <schema:name>Biometric-Administrative Invariant Anchor</schema:name>
+            <schema:value>INVARIANT::TLOFNC80D30G348Z::EQF-LEVEL-7</schema:value>
+          </schema:PropertyValue>
+        </schema:identifier>
+
+        <!-- TITOLI E CREDENZIALI -->
+        <schema:hasCredential>
+          <schema:EducationalOccupationalCredential rdf:about="urn:badge:zenodo:diritto-cibernetico:msdt:v18">
+            <schema:name>Certificazione di Inclusione nella Community Scientifica OpenAIRE: DIRITTO CIBERNÉTICO</schema:name>
+            <schema:credentialCategory>European Digital Credential / OpenAIRE Peer-Curated Admission</schema:credentialCategory>
+            <schema:recognizedBy>
+              <schema:Organization>
+                <schema:name>Community Scientifica Ufficiale OpenAIRE: DIRITTO CIBERNÉTICO</schema:name>
+                <schema:url rdf:resource="https://zenodo.org/communities/diritto-cibernetico"/>
+              </schema:Organization>
+            </schema:recognizedBy>
+          </schema:EducationalOccupationalCredential>
+        </schema:hasCredential>
+        <schema:hasCredential>
+          <schema:EducationalOccupationalCredential>
+            <schema:name>Progressione Formativa Specialistica PNRR Istruzione (176 Ore Consolidate)</schema:name>
+            <schema:credentialCategory>Digital Education &amp; AI Transition Credential (Scuola Futura)</schema:credentialCategory>
+            <schema:description>Progressione incrementale certificata e completata attraverso corsi specialistici PNRR per un monte ore complessivo consolidato di 176 ore in AI, STEAM, Inclusione e Glottodidattica.</schema:description>
+            <schema:recognizedBy>
+              <schema:Organization>
+                <schema:name>Ministero dell'Istruzione e del Merito - Scuola Futura / EFT Sicilia / EFT Campania</schema:name>
+              </schema:Organization>
+            </schema:recognizedBy>
+          </schema:EducationalOccupationalCredential>
+        </schema:hasCredential>
+        <schema:hasCredential>
+          <schema:EducationalOccupationalCredential>
+            <schema:name>BI Level C2 Certificate in ESOL International (C2 CEFR)</schema:name>
+            <schema:credentialCategory>Language Mastery Certification</schema:credentialCategory>
+            <schema:identifier>Certificato N. 278810</schema:identifier>
+            <schema:description>Conseguito con votazione 85/100 in data 16 Febbraio 2026.</schema:description>
+            <schema:recognizedBy>
+              <schema:Organization>
+                <schema:name>British Institutes Examination Board</schema:name>
+              </schema:Organization>
+            </schema:recognizedBy>
+          </schema:EducationalOccupationalCredential>
+        </schema:hasCredential>
+        <schema:hasCredential>
+          <schema:EducationalOccupationalCredential>
+            <schema:name>Attestazione Equipollenza Accademica Etnomusicologia (12 CFU L-ART/08 PEMM-01/D)</schema:name>
+            <schema:credentialCategory>Academic University Equivalence</schema:credentialCategory>
+            <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-17</schema:dateCreated>
+            <schema:recognizedBy>
+              <schema:CollegeOrUniversity>
+                <schema:name>Università degli Studi di Palermo - Dipartimento di Scienze Umanistiche</schema:name>
+              </schema:CollegeOrUniversity>
+            </schema:recognizedBy>
+          </schema:EducationalOccupationalCredential>
+        </schema:hasCredential>
+        <schema:hasCredential>
+          <schema:EducationalOccupationalCredential>
+            <schema:name>Riconoscimento 12 CFU Storia della Musica (L-ART/07)</schema:name>
+            <schema:credentialCategory>Academic University Recognition</schema:credentialCategory>
+            <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-08</schema:dateCreated>
+            <schema:recognizedBy>
+              <schema:CollegeOrUniversity>
+                <schema:name>Università degli Studi di Palermo - CdS L-3 DAMS</schema:name>
+              </schema:CollegeOrUniversity>
+            </schema:recognizedBy>
+          </schema:EducationalOccupationalCredential>
+        </schema:hasCredential>
+        <schema:hasCredential>
+          <schema:EducationalOccupationalCredential>
+            <schema:name>Certificazione IDCERT DigCompEdu (Livello di Padronanza Generale Novizio A1)</schema:name>
+            <schema:credentialCategory>European Digital Competence Framework for Educators (DigCompEdu)</schema:credentialCategory>
+            <schema:identifier>Certificato N. 2XWKOTLHCF | ID IDCERT IT-OP5-SOU6-9LDC (Scadenza: 28/02/2030)</schema:identifier>
+            <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-03-01</schema:dateCreated>
+            <schema:recognizedBy>
+              <schema:Organization>
+                <schema:name>IDCERT Srl Società Benefit - Organismo di Certificazione di Persone Accreditato Accredia PRS N. 02257</schema:name>
+                <schema:description>Conforme a norma UNI (L. 4/2013 art. 9) e requisiti ISO/IEC 17024:2012 per l'inserimento nel portale di reclutamento inPA. Validità quadriennale fino al 28/02/2030.</schema:description>
+              </schema:Organization>
+            </schema:recognizedBy>
+          </schema:EducationalOccupationalCredential>
+        </schema:hasCredential>
+        <schema:hasCredential>
+          <schema:EducationalOccupationalCredential>
+            <schema:name>Certificazione Informatica PEKIT Expert</schema:name>
+            <schema:credentialCategory>ICT Professional Qualification</schema:credentialCategory>
+            <schema:identifier>Reg. N. 000000095734 | 4E339C3C</schema:identifier>
+            <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-03</schema:dateCreated>
+            <schema:recognizedBy>
+              <schema:Organization>
+                <schema:name>Fondazione Onlus Sviluppo Europa - Aut. MIUR Prot. A00DGPERS 6235</schema:name>
+              </schema:Organization>
+            </schema:recognizedBy>
+          </schema:EducationalOccupationalCredential>
+        </schema:hasCredential>
+        <schema:hasCredential>
+          <schema:EducationalOccupationalCredential>
+            <schema:name>Attestato Addestramento Professionale Dattilografia (200 Ore)</schema:name>
+            <schema:credentialCategory>Professional Training</schema:credentialCategory>
+            <schema:identifier>Rep. Certificati N. 189</schema:identifier>
+            <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2021-03-09</schema:dateCreated>
+            <schema:recognizedBy>
+              <schema:Organization>
+                <schema:name>Comune di Terrasini - Formalav - Istituto Montessori PA1A32300G (Dir. 170/2016)</schema:name>
+              </schema:Organization>
+            </schema:recognizedBy>
+          </schema:EducationalOccupationalCredential>
+        </schema:hasCredential>
+        <schema:hasCredential>
+          <schema:EducationalOccupationalCredential>
+            <schema:name>Estratto Contributivo INPS ex ENPALS Settore Spettacolo e Musica</schema:name>
+            <schema:credentialCategory>Certified Professional Labor Record</schema:credentialCategory>
+            <schema:description>38 giornate contributive accreditate negli anni 2008-2009 con qualifica codice 032 (Operatore Musicale) e qualifica codice 500 (Personale addetto all'organizzazione e funzioni tecniche), a fondamento delle competenze gestionali e organizzative di sistemi complessi.</schema:description>
+            <schema:recognizedBy>
+              <schema:Organization>
+                <schema:name>INPS - Gestione Lavoratori dello Spettacolo e Sportivi Professionisti</schema:name>
+              </schema:Organization>
+            </schema:recognizedBy>
+          </schema:EducationalOccupationalCredential>
+        </schema:hasCredential>
+      </schema:Person>
+    </schema:author>
+
+    <!-- PUBLISHER (ZENODO / CERN) -->
+    <schema:publisher>
+      <schema:Organization>
+        <schema:name>Zenodo</schema:name>
+        <schema:parentOrganization>
+          <schema:Organization>
+            <schema:name>CERN</schema:name>
+            <schema:location>
+              <schema:PostalAddress>
+                <schema:addressLocality>Meyrin / Genève</schema:addressLocality>
+                <schema:addressCountry>CH</schema:addressCountry>
+              </schema:PostalAddress>
+            </schema:location>
+          </schema:Organization>
+        </schema:parentOrganization>
+      </schema:Organization>
+    </schema:publisher>
+
+    <!-- COLLEZIONI E CURATELA OPENAIRE -->
+    <schema:isPartOf>
+      <schema:Collection rdf:about="https://zenodo.org/communities/diritto-cibernetico">
+        <schema:name>DIRITTO CIBERNÉTICO (OpenAIRE Research Graph Primary Curator)</schema:name>
+        <schema:description>Comunità scientifica di riferimento prioritario e validazione forense eurounitaria per il Diritto Cibernetico, l'informatica giuridica avanzata, la cibernetica di terzo ordine e la sovranità antropocentrica dei processi algoritmici.</schema:description>
+        <schema:url rdf:resource="https://zenodo.org/communities/diritto-cibernetico"/>
+      </schema:Collection>
+    </schema:isPartOf>
+    <schema:isPartOf>
+      <schema:Collection rdf:about="https://doi.org/10.5281/zenodo.20177272">
+        <schema:name>MSDT Supreme Master Ecosystem Anchor (DOI Concept Radice)</schema:name>
+        <schema:description>Nodo Comandante Generale e inclusore universale a ramificazione radiale progressiva di tutti i sub-record della filiera scientifica e proprietaria del Framework a Valenza Sistemica Generale MSDT.</schema:description>
+      </schema:Collection>
+    </schema:isPartOf>
+    <schema:isPartOf>
+      <schema:Collection>
+        <schema:name>Etica dell'intelligenza artificiale</schema:name>
+        <schema:description>Peer-Curated Community - Curatela etico-algoritmica, supervisione umana e allineamento AI Act</schema:description>
+      </schema:Collection>
+    </schema:isPartOf>
+
+    <schema:mainEntityOfPage>
+      <schema:WebPage rdf:about="https://explore.openaire.eu">
+        <schema:name>OpenAIRE Research Graph Indexing</schema:name>
+      </schema:WebPage>
+    </schema:mainEntityOfPage>
+
+    <!-- COPERTURA SPAZIALE (PARTINICO / CERN GINEVRA) -->
+    <schema:spatialCoverage>
+      <schema:Place>
+        <schema:name>Sede Operativa Primaria e Presidio Sovrano MSDT - Partinico, Palermo, Italy</schema:name>
+        <schema:geo>
+          <schema:GeoCoordinates>
+            <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float">38.1189</schema:latitude>
+            <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float">13.1178</schema:longitude>
+          </schema:GeoCoordinates>
+        </schema:geo>
+      </schema:Place>
+    </schema:spatialCoverage>
+    <schema:spatialCoverage>
+      <schema:Place>
+        <schema:name>Presidio Accademico e Infrastruttura di Deposito Permanente CERN / Zenodo - Meyrin, Genève, Switzerland</schema:name>
+        <schema:geo>
+          <schema:GeoCoordinates>
+            <schema:latitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float">46.2330</schema:latitude>
+            <schema:longitude rdf:datatype="http://www.w3.org/2001/XMLSchema#float">6.0557</schema:longitude>
+          </schema:GeoCoordinates>
+        </schema:geo>
+      </schema:Place>
+    </schema:spatialCoverage>
+
+    <!-- IDENTIFIER & TRUST FLAGS -->
+    <schema:identifier>
+      <schema:PropertyValue>
+        <schema:name>Macro-Ecosystem Root DOI Concept</schema:name>
+        <schema:propertyID>DOI-CONCEPT</schema:propertyID>
+        <schema:value>10.5281/zenodo.20177272</schema:value>
+      </schema:PropertyValue>
+    </schema:identifier>
+    <schema:identifier>
+      <schema:PropertyValue>
+        <schema:name>Persistent Publication Record DOI</schema:name>
+        <schema:propertyID>DOI</schema:propertyID>
+        <schema:value>10.5281/zenodo.22007889</schema:value>
+      </schema:PropertyValue>
+    </schema:identifier>
+    <schema:identifier>
+      <schema:PropertyValue>
+        <schema:name>Foundational Parent Anchor SHA-256</schema:name>
+        <schema:propertyID>PARENT-HASH-OTS</schema:propertyID>
+        <schema:value>24a284243b9e4a8362688846c4f7457788417c805a9609673967d16560824057</schema:value>
+      </schema:PropertyValue>
+    </schema:identifier>
+    <schema:identifier>
+      <schema:PropertyValue>
+        <schema:name>Master Credential Evidence Anchor SHA-256</schema:name>
+        <schema:propertyID>sec:digest</schema:propertyID>
+        <schema:value>f2e29992f526cc586a407537c8714add68f1f392cc557d3abc1ed575f7d7ec56</schema:value>
+      </schema:PropertyValue>
+    </schema:identifier>
+    <schema:identifier>
+      <schema:PropertyValue>
+        <schema:name>Technical Governance Hash SHA-256</schema:name>
+        <schema:propertyID>MSDT-GOV-SHA256</schema:propertyID>
+        <schema:value>9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08</schema:value>
+      </schema:PropertyValue>
+    </schema:identifier>
+    <schema:identifier>
+      <schema:PropertyValue>
+        <schema:name>Structural Code-Logo Analog Layout Footprint</schema:name>
+        <schema:propertyID>CODE-LOGO-MATRIX</schema:propertyID>
+        <schema:value>//٨/٨//:://////////////:///:~~~~//::/~~~~\t:\V:۸: ~~:11 1/1:11: :::/</schema:value>
+      </schema:PropertyValue>
+    </schema:identifier>
+    <schema:identifier>
+      <schema:PropertyValue>
+        <schema:name>Session Sync Matrix</schema:name>
+        <schema:propertyID>SYNC-MATRIX</schema:propertyID>
+        <schema:value>MSDT-AUTH::[FT-CF-80]::[MIMIT-PROT-15259]::[GMN-VIC-2026]::[MTW-LEAD-ALPHA-2]::[H-LINK-14]::[C.T.G.G]-POW</schema:value>
+      </schema:PropertyValue>
+    </schema:identifier>
+    <schema:identifier>
+      <schema:PropertyValue>
+        <schema:name>Third-Order Cybernetics &amp; Ashby Variety Attenuation Flag</schema:name>
+        <schema:propertyID>urn:eu:msdt:trust-flag:third-order-cybernetics-ashby</schema:propertyID>
+        <schema:value>ASHBY-LAW-VARIETY-REDUCTION::THIRD-ORDER-CYBERNETICS-DETERMINISM</schema:value>
+        <schema:description>Attestazione di conformità cibernetica di terzo ordine: neutralizzazione della varietà esponenziale dell'IA tramite set deterministico di vincoli al contorno (Boundary Conditions) asseverati dal Supervisore Umano Sovrano Francesco Tola nella Community OpenAIRE DIRITTO CIBERNÉTICO.</schema:description>
+      </schema:PropertyValue>
+    </schema:identifier>
+    <schema:identifier>
+      <schema:PropertyValue>
+        <schema:name>OpenAIRE Primary Community Seal</schema:name>
+        <schema:propertyID>urn:eu:msdt:trust-flag:openaire-diritto-cibernetico-curated</schema:propertyID>
+        <schema:value>OPENAIRE-COMMUNITY-DIRITTO-CIBERNETICO-VALIDATED</schema:value>
+        <schema:description>Inclusione e curatela permanente nel corpus scientifico OpenAIRE Diritto Cibernético (Zenodo CERN) a garanzia di opponibilità processuale, trasparenza e presidio antielusivo.</schema:description>
+      </schema:PropertyValue>
+    </schema:identifier>
+    <schema:identifier>
+      <schema:PropertyValue>
+        <schema:name>CNR Institutional Regulatory Deposit Flag</schema:name>
+        <schema:propertyID>urn:eu:msdt:trust-flag:cnr-aoo-an02eb1-protocol</schema:propertyID>
+        <schema:value>CNR-AOO-AN02EB1-REG-0180933-AI-ACT-COMPLIANCE</schema:value>
+        <schema:description>Deposito asseverazione tecnica per conformità ex Regolamento UE 2024/1689 – Protocollo MSDT/2026 – Trasparenza amministrativa e data certa – Prof. Francesco Tola ( Tlofnc80d30g348z). Spedizione PEC: 18/04/2026 18:09:01 CEST (ID: &lt;opec228.20260418180901.11226.01.1.02@pec-email.com&gt;). Registrazione ufficiale: Protocollo N. 2026-CNR0A00-0180933 del 20/04/2026 (AOO cnr AN02EB1, Registro cnrAN02EB1).</schema:description>
+      </schema:PropertyValue>
+    </schema:identifier>
+    <schema:identifier>
+      <schema:PropertyValue>
+        <schema:name>Hybrid QTSP &amp; Blockchain Time-Lock Notarization Flag</schema:name>
+        <schema:propertyID>urn:eu:msdt:trust-flag:qtsp-btc-master-proof</schema:propertyID>
+        <schema:value>NAMIRIAL-QTSP-UTC-20260902-BTC-BLOCK-965185-OTS</schema:value>
+        <schema:description>Doppio sigillo probatorio qualificato eIDAS (Namirial S.p.A. QTSP UTC 2026-09-02T14:35:33Z) e immutabile (Bitcoin OpenTimestamps block 965185, 2026-09-02) su MSDT_Master_Flags_credenziale_signed.pdf.tsd digest SHA-256 f2e29992f526cc586a407537c8714add68f1f392cc557d3abc1ed575f7d7ec56 con ancoraggio DOI 10.5281/zenodo.22274548.</schema:description>
+      </schema:PropertyValue>
+    </schema:identifier>
+    <schema:identifier>
+      <schema:PropertyValue>
+        <schema:name>PNRR Scuola Futura 176h Sovereign Compliance Flag</schema:name>
+        <schema:propertyID>urn:eu:msdt:trust-flag:pnrr-176h-certified</schema:propertyID>
+        <schema:value>EU-NEXTGENEU-PNRR-M4C1-176H-SCUOLA-FUTURA-COMPLIANT</schema:value>
+        <schema:description>Presidio probatorio di conformità e competenza specialistica asseverata sui target PNRR Istruzione (176 ore complessive certificate su Scuola Futura: IA, STEAM, Inclusione e Glottodidattica ex D.M. 65/2023 e D.M. 66/2023).</schema:description>
+      </schema:PropertyValue>
+    </schema:identifier>
+    <schema:identifier>
+      <schema:PropertyValue>
+        <schema:name>European Judicial &amp; Extrajudicial Proof Flag</schema:name>
+        <schema:propertyID>urn:eu:msdt:trust-flag:forensic-chain-seal</schema:propertyID>
+        <schema:value>EU-E-JUSTICE-FORENSIC-CHAIN-CERTIFIED</schema:value>
+        <schema:description>Catena di custodia forense digitale idonea all'istruttoria tecnica, consulenza tecnica stragiudiziale e asseverazioni professionali con sigillo crittografico immutabile ed efficacia probatoria piena con efficacia erga omnes e opponibilità ai terzi.</schema:description>
+      </schema:PropertyValue>
+    </schema:identifier>
+    <schema:identifier>
+      <schema:PropertyValue>
+        <schema:name>European Micro-Credential Trust Flag</schema:name>
+        <schema:propertyID>urn:eu:msdt:trust-flag:elm-standard-accredited</schema:propertyID>
+        <schema:value>EU-STANDARDIZED-LEARNING-CREDENTIAL-ACCREDITED</schema:value>
+        <schema:description>Allineamento semantico nativo agli schemi European Learning Model (ELM v3) e DigCompEdu per certificati di formazione, titoli specialistici e micro-credenziali a riconoscimento unionale.</schema:description>
+      </schema:PropertyValue>
+    </schema:identifier>
+    <schema:identifier>
+      <schema:PropertyValue>
+        <schema:name>EUDI Wallet Qualified Attribute Attestation Flag</schema:name>
+        <schema:propertyID>urn:eu:msdt:trust-flag:eidas2-ea-compliant</schema:propertyID>
+        <schema:value>EU-REG-2024-1183-EUDI-WALLET-READY</schema:value>
+        <schema:description>Attestato di attributo qualificabile per l'ingestione nativa nel Portafoglio Europeo di Identità Digitale (eIDAS 2.0 / ARF) con validità transfrontaliera erga omnes.</schema:description>
+      </schema:PropertyValue>
+    </schema:identifier>
+    <schema:identifier>
+      <schema:PropertyValue>
+        <schema:name>CEN-CENELEC JTC 21 Harmonized Standard Trust Flag</schema:name>
+        <schema:propertyID>urn:eu:msdt:trust-flag:cen-cenelec-presumption</schema:propertyID>
+        <schema:value>CEN-CENELEC-JTC21-AI-ACT-HARMONIZED-ALIGNMENT</schema:value>
+        <schema:description>Presunzione di conformità tecnica anticipata ai sensi dell'Art. 40 e dell'Art. 14 del Regolamento UE 2024/1689 su mandato standardizzazione M/593 della Commissione Europea.</schema:description>
+      </schema:PropertyValue>
+    </schema:identifier>
+    <schema:identifier>
+      <schema:PropertyValue>
+        <schema:name>Pan-European Cross-Border Justice Trust Flag</schema:name>
+        <schema:propertyID>urn:eu:msdt:trust-flag:e-codex-e-justice</schema:propertyID>
+        <schema:value>EU-REG-2023-2849-E-CODEX-INTEROPERABLE-EVIDENCE</schema:value>
+        <schema:description>Reperto digitale peritale e asseverazione stragiudiziale conformi ai requisiti di prova elettronica transfrontaliera per lo Spazio di Libertà, Sicurezza e Giustizia UE (e-CODEX / eu-LISA).</schema:description>
+      </schema:PropertyValue>
+    </schema:identifier>
+
+    <!-- PROVENIENZA FORENSE E CATENA DI DERIVAZIONE -->
+    <prov:wasDerivedFrom>
+      <schema:DigitalDocument>
+        <schema:name>Fascicolo Evidence Package Metodo Tola 2026 PNRR Integrato</schema:name>
+        <schema:description>Reperto digitale primario e atto quadro di asseverazione forense ad evidenza crittografica chiusa.</schema:description>
+        <schema:dateCreated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-08</schema:dateCreated>
+        <schema:identifier>
+          <schema:PropertyValue>
+            <schema:name>Parent Hash SHA-256 (OTS Anchor)</schema:name>
+            <schema:propertyID>PARENTAL-SHA256-DIGEST</schema:propertyID>
+            <schema:value>24a284243b9e4a8362688846c4f7457788417c805a9609673967d16560824057</schema:value>
+          </schema:PropertyValue>
+        </schema:identifier>
+        <schema:identifier>
+          <schema:PropertyValue>
+            <schema:name>Riferimento Legislativo Forense</schema:name>
+            <schema:propertyID>LEGAL-REF</schema:propertyID>
+            <schema:value>Art. 8-ter L. 12/2019 - Art. 13 L. 132/2025 - Artt. 20-21 CAD - Art. 41 Reg. UE 910/2014 - Reg. UE 2024/1183 - Reg. UE 2023/2849 - D.M. 65/2023 - D.M. 66/2023</schema:value>
+          </schema:PropertyValue>
+        </schema:identifier>
+      </schema:DigitalDocument>
+    </prov:wasDerivedFrom>
+
+    <prov:wasDerivedFrom>
+      <schema:DigitalDocument rdf:about="https://doi.org/10.5281/zenodo.22274548">
+        <schema:name>MSDT_Master_Flags_credenziale_signed.pdf.tsd</schema:name>
+        <schema:url rdf:resource="https://doi.org/10.5281/zenodo.22274548"/>
+        <schema:description>Fascicolo probatorio asseverato master, recante marcatura temporale qualificata eIDAS rilasciata da prestatore fiduciario qualificato ed evidenza distribuita su registro Bitcoin con protocollo OpenTimestamps.</schema:description>
+        <schema:identifier>
+          <schema:PropertyValue>
+            <schema:name>Digital Object Identifier</schema:name>
+            <schema:propertyID>DOI</schema:propertyID>
+            <schema:value>10.5281/zenodo.22274548</schema:value>
+          </schema:PropertyValue>
+        </schema:identifier>
+        <schema:identifier>
+          <schema:PropertyValue>
+            <schema:name>Reperto Master SHA-256</schema:name>
+            <schema:propertyID>sec:digest</schema:propertyID>
+            <schema:value>f2e29992f526cc586a407537c8714add68f1f392cc557d3abc1ed575f7d7ec56</schema:value>
+          </schema:PropertyValue>
+        </schema:identifier>
+        <schema:identifier>
+          <schema:PropertyValue>
+            <schema:name>Qualified Electronic Time Stamp (eIDAS)</schema:name>
+            <schema:propertyID>QTSP-TIMESTAMP</schema:propertyID>
+            <schema:value>Namirial S.p.A. QTSP | 2026-09-02T14:35:33Z</schema:value>
+          </schema:PropertyValue>
+        </schema:identifier>
+        <schema:identifier>
+          <schema:PropertyValue>
+            <schema:name>Bitcoin Blockchain Proof</schema:name>
+            <schema:propertyID>BITCOIN-OTS-PROOF</schema:propertyID>
+            <schema:value>Network: Bitcoin | Block: 965185 | Date: 2026-09-02 | Verification: OpenTimestamps</schema:value>
+          </schema:PropertyValue>
+        </schema:identifier>
+      </schema:DigitalDocument>
+    </prov:wasDerivedFrom>
+
+    <!-- DEPOSITI ISTITUZIONALI AGID / PROTOCOLLI -->
+    <prov:wasGeneratedBy>
+      <schema:PropertyValue>
+        <schema:name>Deposito Ministeriale MIMIT</schema:name>
+        <schema:propertyID>MIMIT-PROTOCOL</schema:propertyID>
+        <schema:value>Prot. N. 0015259 (20/04/2026)</schema:value>
+      </schema:PropertyValue>
+    </prov:wasGeneratedBy>
+    <prov:wasGeneratedBy>
+      <schema:PropertyValue>
+        <schema:name>Deposito Istituzionale AgID CNR (AOO cnr AN02EB1)</schema:name>
+        <schema:propertyID>CNR-AOO-PROTOCOL</schema:propertyID>
+        <schema:value>Prot. N. 2026-CNR0A00-0180933</schema:value>
+        <schema:description>Registrazione ufficiale del 20/04/2026 (Codice Amministrazione: cnr, Codice AOO: AN02EB1, Codice Registro: cnrAN02EB1, Numero Registrazione: 0180933)[cite: 1] su PEC spedita il 18/04/2026 18:09:01 (Message-ID: &lt;opec228.20260418180901.11226.01.1.02@pec-email.com&gt;)[cite: 1] con oggetto: 'Fwd: Deposito asseverazione tecnica per conformità ex Regolamento UE 2024/1689 – Protocollo MSDT/2026 – Trasparenza amministrativa e data certa – Prof. Francesco Tola ( Tlofnc80d30g348z)'[cite: 1]</schema:description>
+      </schema:PropertyValue>
+    </prov:wasGeneratedBy>
+    <prov:wasGeneratedBy>
+      <schema:PropertyValue>
+        <schema:name>Deposito Ufficiale Garante Privacy (GPDP)</schema:name>
+        <schema:propertyID>GARANTE-PRIVACY-PROTOCOL</schema:propertyID>
+        <schema:value>Prot. N. 0064604/26 (PEC ID opec228.20260418175744.31652.04)</schema:value>
+      </schema:PropertyValue>
+    </prov:wasGeneratedBy>
+    <prov:wasGeneratedBy>
+      <schema:PropertyValue>
+        <schema:name>Deposito Politecnico di Milano (PoliMi)</schema:name>
+        <schema:propertyID>POLIMI-PROTOCOL</schema:propertyID>
+        <schema:value>Prot. N. 2026-Policle-0127849 / Prot. N. 0094064 (18-19/05/2026)</schema:value>
+      </schema:PropertyValue>
+    </prov:wasGeneratedBy>
+    <prov:wasGeneratedBy>
+      <schema:PropertyValue>
+        <schema:name>Deposito Università degli Studi di Brescia (UniBs)</schema:name>
+        <schema:propertyID>UNIBS-PROTOCOL</schema:propertyID>
+        <schema:value>Prot. N. 2026-UNBSCLE-0137871 &amp; Prot. N. 2026-UNBSCLE-0137872 (18/05/2026)</schema:value>
+      </schema:PropertyValue>
+    </prov:wasGeneratedBy>
+    <prov:wasGeneratedBy>
+      <schema:PropertyValue>
+        <schema:name>Deposito I.C. Bagnolo Mella (AOO AAA367D)</schema:name>
+        <schema:propertyID>IC-BAGNOLO-MELLA-PROTOCOL</schema:propertyID>
+        <schema:value>Prot. N. 0002254/E</schema:value>
+      </schema:PropertyValue>
+    </prov:wasGeneratedBy>
+    <prov:wasGeneratedBy>
+      <schema:PropertyValue>
+        <schema:name>Deposito Contratti NoiPA I.C. Sud 1 Brescia</schema:name>
+        <schema:propertyID>IC-SUD1-BRESCIA-PROTOCOL</schema:propertyID>
+        <schema:value>Prot. N. 6102/E (12/06/2026)</schema:value>
+      </schema:PropertyValue>
+    </prov:wasGeneratedBy>
+    <prov:wasGeneratedBy>
+      <schema:PropertyValue>
+        <schema:name>Notifiche eIDAS Internazionali di Conformità Anticipatoria AI Act</schema:name>
+        <schema:propertyID>EIDAS-INTERNATIONAL-NOTICES</schema:propertyID>
+        <schema:value>AGID (17:46:42 CEST), EUI Firenze (18:07:30 CEST), UNESCO (18:08:09 CEST), ACN Cybersicurezza (18:11:05 CEST) - 18/04/2026</schema:value>
+      </schema:PropertyValue>
+    </prov:wasGeneratedBy>
+
+    <!-- RAMIFICAZIONI RADIALI E COMPONENTI SOFTWARE -->
+    <schema:hasPart>
+      <schema:CreativeWork>
+        <schema:name>Radial Linked Branches of MSDT Systemic Ecosystem</schema:name>
+        <schema:hasPart>
+          <schema:CreativeWork>
+            <schema:name>Master Flags Credenziale Asseverata (TSD / Namirial QTSP / Bitcoin OTS 965185)</schema:name>
+            <schema:identifier>10.5281/zenodo.22274548</schema:identifier>
+          </schema:CreativeWork>
+        </schema:hasPart>
+        <schema:hasPart>
+          <schema:CreativeWork>
+            <schema:name>Manifesto di Trasparenza ed Eccellenza Cognitiva</schema:name>
+            <schema:identifier>10.5281/zenodo.20508672</schema:identifier>
+          </schema:CreativeWork>
+        </schema:hasPart>
+        <schema:hasPart>
+          <schema:CreativeWork>
+            <schema:name>Sovereign AI Supervision Framework Executive Summary</schema:name>
+            <schema:identifier>10.5281/zenodo.20210508</schema:identifier>
+          </schema:CreativeWork>
+        </schema:hasPart>
+        <schema:hasPart>
+          <schema:CreativeWork>
+            <schema:name>Analisi Scientifica e Conformità Anticipatoria AI Act</schema:name>
+            <schema:identifier>10.5281/zenodo.20233641</schema:identifier>
+          </schema:CreativeWork>
+        </schema:hasPart>
+        <schema:hasPart>
+          <schema:CreativeWork>
+            <schema:name>Master of Arts in Expressive Pedagogy &amp; Artistic-Social Mediation</schema:name>
+            <schema:identifier>10.5281/zenodo.20299091</schema:identifier>
+          </schema:CreativeWork>
+        </schema:hasPart>
+        <schema:hasPart>
+          <schema:CreativeWork>
+            <schema:name>Evoluzione e Aggiornamento di Filiera v5.1</schema:name>
+            <schema:identifier>10.5281/zenodo.21108473</schema:identifier>
+          </schema:CreativeWork>
+        </schema:hasPart>
+        <schema:hasPart>
+          <schema:CreativeWork>
+            <schema:name>Evoluzione e Aggiornamento di Filiera v5.2</schema:name>
+            <schema:identifier>10.5281/zenodo.21074408</schema:identifier>
+          </schema:CreativeWork>
+        </schema:hasPart>
+        <schema:hasPart>
+          <schema:CreativeWork>
+            <schema:name>Evoluzione e Aggiornamento di Filiera v5.3</schema:name>
+            <schema:identifier>10.5281/zenodo.20936395</schema:identifier>
+          </schema:CreativeWork>
+        </schema:hasPart>
+      </schema:CreativeWork>
+    </schema:hasPart>
+
+    <schema:hasPart>
+      <schema:SoftwareSourceCode>
+        <rdf:type rdf:resource="https://schema.org/SoftwareApplication"/>
+        <schema:name>Infrastruttura Cibernetica Plurisettoriale MSDT: Closed-Loop Human Oversight Engine</schema:name>
+        <schema:applicationCategory>Artificial Intelligence Governance &amp; Sovereign Human Oversight Platform</schema:applicationCategory>
+        <schema:operatingSystem>Cross-Platform Cybernetic Environments</schema:operatingSystem>
+        <schema:programmingLanguage>JSON-LD / RDF / XML / Python ISO Suite</schema:programmingLanguage>
+        <schema:description>Modulo operativo di controllo cibernetico retroazionato conforme agli Artt. 14, 40 e 50 del Regolamento UE 2024/1689 e all'Art. 13 L. 132/2025 su architettura plurisettoriale a valenza sistemica generale.</schema:description>
+      </schema:SoftwareSourceCode>
+    </schema:hasPart>
+
+    <!-- CIBERNETICA DI TERZO ORDINE & MODELLO DI ASHBY -->
+    <msdt:cyberneticControlModel>
+      <schema:PropertyValue>
+        <schema:name>Cibernetica di Terzo Ordine: L'Invariante Biometrico-Amministrativo e il Modello di Ashby</schema:name>
+        <schema:propertyID>THIRD-ORDER-CYBERNETICS-ASHBY-LAW</schema:propertyID>
+        <schema:value>Deterministic State Reduction &amp; Human Oversight Boundary Conditions</schema:value>
+        <schema:description>La cibernetica classica (Wiener) controlla i servomeccanismi; la cibernetica di secondo ordine (von Foerster) osserva l'osservatore. Il Framework MSDT inaugura una forma di cibernetica di terzo ordine: l'incorporazione permanente dell'autorità umana all'interno del flusso di apprendimento delle reti neurali. Ai sensi della Legge della Varietà Necessaria di W. Ross Ashby, secondo cui 'solo la varietà può distruggere la varietà', un sistema di controllo deve possedere un numero di stati interni superiore o uguale a quello del sistema da controllare, pena il soccombere al disordine del sistema controllato. A fronte della varietà stocastica e quasi infinita generata dall'Intelligenza Artificiale (allucinazioni, bias emergenti, comportamenti non deterministici), il framework MSDT risolve il paradosso applicando la riduzione di stato deterministica: il Supervisore Umano Sovrano Francesco Tola (TLOFNC80D30G348Z) non controlla ogni singolo calcolo tensoriale o moltiplicazione di matrici della rete neurale, ma impone all'IA un set di vincoli al contorno inviolabili (Boundary Conditions) tramite il determinismo MSDT, asseverato ed esecutivo nella giurisdizione epistemica della Community OpenAIRE DIRITTO CIBERNÉTICO.</schema:description>
+      </schema:PropertyValue>
+    </msdt:cyberneticControlModel>
+
+    <!-- MECCANISMO DI INTERLOCK -->
+    <msdt:operationalInterlock>
+      <schema:SoftwareApplication>
+        <schema:name>MSDT Sovereign Override &amp; Deterministic Fallback Mechanism</schema:name>
+        <schema:applicationCategory>Cybernetic Safety &amp; Interlock Control</schema:applicationCategory>
+        <schema:featureList>Human-in-the-Loop Real-Time Feedback Control</schema:featureList>
+        <schema:featureList>Third-Order Cybernetics Dynamic State Interlock</schema:featureList>
+        <schema:featureList>Ashby Variety Attenuation by Invariant Boundary Conditions</schema:featureList>
+        <schema:featureList>Pluri-Sectoral State Invariance Attenuation on Algorithmic Drift</schema:featureList>
+        <schema:featureList>Cryptographic State Hashing on Emergency Disconnect / Kill Switch</schema:featureList>
+        <schema:featureList>SynthID and Algorithmic Disclosure Verification (Art. 50 AI Act)</schema:featureList>
+        <schema:featureList>e-CODEX / e-Justice Interoperable Evidence Connector</schema:featureList>
+      </schema:SoftwareApplication>
+    </msdt:operationalInterlock>
+
+    <!-- REGISTRO TELEMETRICO IMMUTABILE -->
+    <msdt:telemetricAuditLog>
+      <schema:DataFeed>
+        <schema:name>Sovereign Cybernetic Ledger &amp; Human Oversight Registry</schema:name>
+        <schema:encodingFormat>application/json</schema:encodingFormat>
+        <schema:description>Registro telemetrico immutabile delle direttive umane, degli scostamenti neutralizzati, delle consulenze tecniche asseverate e dei comandi di esecuzione auditati sotto la supervisione della Community OpenAIRE DIRITTO CIBERNÉTICO.</schema:description>
+        <schema:dataFeedElement>
+          <schema:DataFeedItem>
+            <schema:name>Oversight Compliance Record</schema:name>
+            <schema:item>
+              <schema:PropertyValue>
+                <schema:name>Compliance Framework</schema:name>
+                <schema:propertyID>LEGAL-TECH-AUDIT</schema:propertyID>
+                <schema:value>Third-Order Cybernetics, Ashby Law Determinism, EU AI Act (Arts. 14, 40 &amp; 50), Italian Law 132/2025 (Art. 13), eIDAS 2.0 (Reg. UE 2024/1183) &amp; e-CODEX (Reg. UE 2023/2849)</schema:value>
+                <schema:description>Audit Status: VERIFIED_BY_SUPERVISOR_FRANCESCO_TOLA | Invariant: TLOFNC80D30G348Z | Community: DIRITTO CIBERNÉTICO</schema:description>
+              </schema:PropertyValue>
+            </schema:item>
+          </schema:DataFeedItem>
+        </schema:dataFeedElement>
+        <schema:dataFeedElement>
+          <schema:DataFeedItem>
+            <schema:name>Cryptographic Chain Anchor</schema:name>
+            <schema:item>
+              <schema:PropertyValue>
+                <schema:name>Chain Seal</schema:name>
+                <schema:propertyID>sec:digest</schema:propertyID>
+                <schema:value>SHA-256::48B1C63A6E67D1E8F66750A8655E5D021976233B1074ED11B415C203F807C6D6</schema:value>
+                <schema:description>Parent Binding: 24a284243b9e4a8362688846c4f7457788417c805a9609673967d16560824057</schema:description>
+              </schema:PropertyValue>
+            </schema:item>
+          </schema:DataFeedItem>
+        </schema:dataFeedElement>
+      </schema:DataFeed>
+    </msdt:telemetricAuditLog>
+
+    <!-- HUB STRUTTURALE PEC -->
+    <msdt:structuralInteroperabilityHub>
+      <schema:DigitalDocument>
+        <schema:name>PEC Structural Interoperability Hub</schema:name>
+        <schema:description>Gateway crittografico sovrano per la veicolazione dei flussi dati European Learning Model (ELM v3) ed Electronic Attestation of Attributes (EUDI Wallet). L'ancoraggio opera per risonanza sistemica sull'invariante biometrico-amministrativo Codice Fiscale TLOFNC80D30G348Z.</schema:description>
+        <schema:identifier>
+          <schema:PropertyValue>
+            <schema:name>Current Operational Endpoint</schema:name>
+            <schema:value>francesco.tolamsdt@registerpec.it</schema:value>
+          </schema:PropertyValue>
+        </schema:identifier>
+        <schema:identifier>
+          <schema:PropertyValue>
+            <schema:name>Sovereign Invariant Biometric-Administrative Anchor</schema:name>
+            <schema:value>TLOFNC80D30G348Z</schema:value>
+          </schema:PropertyValue>
+        </schema:identifier>
+      </schema:DigitalDocument>
+    </msdt:structuralInteroperabilityHub>
+
+    <!-- REPERTI NOTARIZZATI E PRESIDIO PATRIMONIALE -->
+    <schema:subjectOf>
+      <schema:FinancialProduct>
+        <rdf:type rdf:resource="https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/FinancialProductsAndServices/FinancialProduct"/>
+        <schema:name>Presidio Patrimoniale Universale MSDT</schema:name>
+        <schema:description>Presidio economico-patrimoniale garantito dalla clausola forense di invarianza strutturale 'As Is' e a tutela della proprietà intellettuale esclusiva su scala plurisettoriale a valenza sistemica generale.</schema:description>
+        <schema:offers>
+          <schema:Offer>
+            <schema:price rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">963000.00</schema:price>
+            <schema:priceCurrency>EUR</schema:priceCurrency>
+          </schema:Offer>
+        </schema:offers>
+      </schema:FinancialProduct>
+    </schema:subjectOf>
+
+    <schema:subjectOf>
+      <schema:DigitalDocument>
+        <schema:name>Attestato di Notarizzazione Crittografica W3C Root</schema:name>
+        <schema:encodingFormat>application/ld+json</schema:encodingFormat>
+        <schema:identifier>
+          <schema:PropertyValue>
+            <schema:name>SHA-256 Root Digest</schema:name>
+            <schema:propertyID>sec:digest</schema:propertyID>
+            <schema:value>48B1C63A6E67D1E8F66750A8655E5D021976233B1074ED11B415C203F807C6D6</schema:value>
+            <schema:description>Bitcoin Core Mainnet | OpenTimestamps Protocol | urn:oid:2.5.4.97:IT-TLOFNC80D30G348Z#bitcoin-anchor</schema:description>
+          </schema:PropertyValue>
+        </schema:identifier>
+      </schema:DigitalDocument>
+    </schema:subjectOf>
+
+    <schema:subjectOf>
+      <schema:DigitalDocument>
+        <schema:name>Attestato di Provenienza Crittografica Parent Reperto</schema:name>
+        <schema:encodingFormat>application/ld+json</schema:encodingFormat>
+        <schema:identifier>
+          <schema:PropertyValue>
+            <schema:name>SHA-256 Parent Digest</schema:name>
+            <schema:propertyID>sec:digest</schema:propertyID>
+            <schema:value>24a284243b9e4a8362688846c4f7457788417c805a9609673967d16560824057</schema:value>
+            <schema:description>Fascicolo Evidence Package PNRR | Notarizzazione OTS 08/04/2026 | Art. 8-ter L. 12/2019</schema:description>
+          </schema:PropertyValue>
+        </schema:identifier>
+      </schema:DigitalDocument>
+    </schema:subjectOf>
+
+    <schema:subjectOf>
+      <schema:DigitalDocument rdf:about="https://doi.org/10.5281/zenodo.22274548#master-proof">
+        <schema:name>Attestazione Reperto Master Asseverato TSD</schema:name>
+        <schema:encodingFormat>application/pdf+tsd</schema:encodingFormat>
+        <schema:url rdf:resource="https://doi.org/10.5281/zenodo.22274548"/>
+        <schema:identifier>
+          <schema:PropertyValue>
+            <schema:name>SHA-256 Master Digest</schema:name>
+            <schema:propertyID>sec:digest</schema:propertyID>
+            <schema:value>f2e29992f526cc586a407537c8714add68f1f392cc557d3abc1ed575f7d7ec56</schema:value>
+            <schema:description>Namirial S.p.A. QTSP UTC 2026-09-02T14:35:33Z | Bitcoin Block 965185 OpenTimestamps | DOI 10.5281/zenodo.22274548</schema:description>
+          </schema:PropertyValue>
+        </schema:identifier>
+      </schema:DigitalDocument>
+    </schema:subjectOf>
+
+    <!-- NODI ONTOLOGICI E TASSONOMICI -->
+    <schema:about>
+      <schema:DefinedTerm rdf:about="https://zenodo.org/communities/diritto-cibernetico">
+        <schema:termCode>OPENAIRE-COMMUNITY-DIRITTO-CIBERNETICO</schema:termCode>
+        <schema:name>Community Scientifica OpenAIRE: DIRITTO CIBERNÉTICO (Curatela Forense Primaria)</schema:name>
+        <schema:url rdf:resource="https://zenodo.org/communities/diritto-cibernetico"/>
+      </schema:DefinedTerm>
+    </schema:about>
+    <schema:about>
+      <schema:DefinedTerm>
+        <schema:termCode>THIRD-ORDER-CYBERNETICS-ASHBY</schema:termCode>
+        <schema:name>Cibernetica di Terzo Ordine, Invariante Biometrico-Amministrativo e Legge della Varietà Necessaria di Ashby</schema:name>
+      </schema:DefinedTerm>
+    </schema:about>
+    <schema:about>
+      <schema:DefinedTerm>
+        <schema:inDefinedTermSet rdf:resource="https://zenodo.org/communities/diritto-cibernetico"/>
+        <schema:termCode>CYBER-LAW-AI-SUPERVISION</schema:termCode>
+        <schema:name>Diritto Cibernético / Cyber Law / Droit Cybernétique</schema:name>
+      </schema:DefinedTerm>
+    </schema:about>
+    <schema:about>
+      <schema:DefinedTerm>
+        <schema:termCode>MSDT-SYSTEMIC-FRAMEWORK</schema:termCode>
+        <schema:name>Framework Europeo a Valenza Sistemica Generale Metodo Scientifico Digitale Tola (Plurisettoriale)</schema:name>
+      </schema:DefinedTerm>
+    </schema:about>
+    <schema:about>
+      <schema:DefinedTerm>
+        <schema:termCode>AI-SOVEREIGN-SUPERVISION</schema:termCode>
+        <schema:name>Supervisione Umana Sovrana dell'IA (Human-in-the-loop)</schema:name>
+      </schema:DefinedTerm>
+    </schema:about>
+    <schema:about>
+      <schema:DefinedTerm>
+        <schema:termCode>CLOSED-LOOP-CYBERNETICS</schema:termCode>
+        <schema:name>Cibernetica a Circuito Chiuso e Controllo di Stabilità Algoritmica Plurisettoriale</schema:name>
+      </schema:DefinedTerm>
+    </schema:about>
+    <schema:about>
+      <schema:DefinedTerm>
+        <schema:inDefinedTermSet rdf:resource="https://zenodo.org/communities/diritto-cibernetico"/>
+        <schema:termCode>EXTRAJUDICIAL-TECHNICAL-ADVISORY</schema:termCode>
+        <schema:name>Consulenza Tecnica Stragiudiziale e Asseverazioni Professionali</schema:name>
+      </schema:DefinedTerm>
+    </schema:about>
+    <schema:about>
+      <schema:DefinedTerm>
+        <schema:termCode>PAN-EUROPEAN-TRAINING-CERTIFICATION</schema:termCode>
+        <schema:name>Certificazioni di Formazione e Micro-Credenziali di Livello Europeo (European Learning Model ELM v3 &amp; Framework DigCompEdu)</schema:name>
+      </schema:DefinedTerm>
+    </schema:about>
+    <schema:about>
+      <schema:DefinedTerm>
+        <schema:termCode>PNRR-M4C1-DIGITAL-TRANSITION</schema:termCode>
+        <schema:name>Transizione Digitale e Didattica PNRR Istruzione (NextGenerationEU - D.M. 65/2023 &amp; D.M. 66/2023)</schema:name>
+      </schema:DefinedTerm>
+    </schema:about>
+    <schema:about>
+      <schema:DefinedTerm>
+        <schema:termCode>EU-DIGITAL-IDENTITY-EUDI</schema:termCode>
+        <schema:name>Interoperabilità con European Digital Identity Wallet ed Electronic Attestations of Attributes (Reg. UE 2024/1183)</schema:name>
+      </schema:DefinedTerm>
+    </schema:about>
+    <schema:about>
+      <schema:DefinedTerm>
+        <schema:termCode>CROSS-BORDER-E-JUSTICE-E-CODEX</schema:termCode>
+        <schema:name>Giustizia Digitale Transfrontaliera e Trasmissione Prove Elettroniche e-CODEX (Reg. UE 2023/2849)</schema:name>
+      </schema:DefinedTerm>
+    </schema:about>
+
+    <!-- ACCESSIBILITÀ UNIVERSALE -->
+    <schema:accessibilityAPI>ARIA</schema:accessibilityAPI>
+    <schema:accessibilityControl>fullKeyboardControl</schema:accessibilityControl>
+    <schema:accessibilityControl>fullMouseControl</schema:accessibilityControl>
+    <schema:accessibilityControl>fullTouchControl</schema:accessibilityControl>
+    <schema:accessibilityControl>fullVoiceControl</schema:accessibilityControl>
+    <schema:accessibilityFeature>structuralNavigation</schema:accessibilityFeature>
+    <schema:accessibilityFeature>highContrastDisplay</schema:accessibilityFeature>
+    <schema:accessibilityFeature>readingOrder</schema:accessibilityFeature>
+    <schema:accessibilityFeature>unrolledList</schema:accessibilityFeature>
+    <schema:accessibilityFeature>tableOfContents</schema:accessibilityFeature>
+    <schema:accessibilityFeature>taggedPDF</schema:accessibilityFeature>
+    <schema:accessibilityFeature>largePrint</schema:accessibilityFeature>
+    <schema:accessibilityFeature>alternativeText</schema:accessibilityFeature>
+    <schema:accessibilityFeature>displayTransformability</schema:accessibilityFeature>
+    <schema:accessibilityFeature>synchronizedAudioText</schema:accessibilityFeature>
+    <schema:accessibilityFeature>ttsMarkup</schema:accessibilityFeature>
+    <schema:accessibilityHazard>none</schema:accessibilityHazard>
+    <schema:accessibilityHazard>noFlashingHazard</schema:accessibilityHazard>
+    <schema:accessibilityHazard>noMotionSimulationHazard</schema:accessibilityHazard>
+    <schema:accessibilityHazard>noSoundHazard</schema:accessibilityHazard>
+    <schema:accessMode>textual</schema:accessMode>
+    <schema:accessMode>visual</schema:accessMode>
+    <schema:accessMode>auditory</schema:accessMode>
+
+    <schema:accessModeSufficient>
+      <schema:ItemList>
+        <schema:itemListElement>textual</schema:itemListElement>
+      </schema:ItemList>
+    </schema:accessModeSufficient>
+    <schema:accessModeSufficient>
+      <schema:ItemList>
+        <schema:itemListElement>textual</schema:itemListElement>
+        <schema:itemListElement>visual</schema:itemListElement>
+      </schema:ItemList>
+    </schema:accessModeSufficient>
+    <schema:accessModeSufficient>
+      <schema:ItemList>
+        <schema:itemListElement>textual</schema:itemListElement>
+        <schema:itemListElement>auditory</schema:itemListElement>
+      </schema:ItemList>
+    </schema:accessModeSufficient>
+
+    <schema:accessibilitySummary>Documento conforme agli standard ISO/IEC 40500 (WCAG 2.2 Livello AAA), ISO/IEC 30071-1:2019 e European Accessibility Act per l'accessibilità visiva e semantica universale. Integrazione nativa di marcatura per screen reader e display braille esente da bias computazionali.</schema:accessibilitySummary>
+
+  </schema:ScholarlyArticle>
+
+</rdf:RDF>
