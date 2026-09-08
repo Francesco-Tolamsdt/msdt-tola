@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE documento_integrale [
+  <!ELEMENT documento_integrale (metadati, certificato_di_laurea, relazione_tecnica_convalida, trattato_italiano, trattato_inglese, documenti_identita_e_fiscali)>
+  <!ATTLIST documento_integrale
+    xmlns:xsi CDATA #IMPLIED
+    xsi:noNamespaceSchemaLocation CDATA #IMPLIED>
+  <!ELEMENT metadati (titolo_file, tipologia, data_elaborazione, landing_page_url, repository_github, doi_principale, doi_concept_radice, invariante_biometrico)>
+  <!ELEMENT titolo_file (#PCDATA)>
+  <!ELEMENT tipologia (#PCDATA)>
+  <!ELEMENT data_elaborazione (#PCDATA)>
+  <!ELEMENT landing_page_url (#PCDATA)>
+  <!ELEMENT repository_github (#PCDATA)>
+  <!ELEMENT doi_principale (#PCDATA)>
+  <!ELEMENT doi_concept_radice (#PCDATA)>
+  <!ELEMENT invariante_biometrico (#PCDATA)>
+  <!ELEMENT certificato_di_laurea (ente_emittente, titolo_conferito, titolare, motivazione_conferimento, valutazione, firmatari_e_autorita, dettagli_validazione)>
+  <!ELEMENT ente_emittente (nome_principale, divisione, sede)>
+  <!ELEMENT nome_principale (#PCDATA)>
+  <!ELEMENT divisione (#PCDATA)>
+  <!ELEMENT sede (#PCDATA)>
+  <!ELEMENT titolo_conferito (denominazione_en, denominazione_it)>
+  <!ELEMENT denominazione_en (#PCDATA)>
+  <!ELEMENT denominazione_it (#PCDATA)>
+  <!ELEMENT titolare (nome_completo, dati_nascita)>
+  <!ELEMENT nome_completo (#PCDATA)>
+  <!ELEMENT dati_nascita (#PCDATA)>
+  <!ELEMENT motivazione_conferimento (testo_it, testo_en)>
+  <!ELEMENT testo_it (#PCDATA)>
+  <!ELEMENT testo_en (#PCDATA)>
+  <!ELEMENT valutazione (voto, lode_menzione)>
+  <!ELEMENT voto (#PCDATA)>
+  <!ELEMENT lode_menzione (#PCDATA)>
+  <!ELEMENT firmatari_e_autorita (firmatario+)>
+  <!ELEMENT firmatario (#PCDATA)>
+  <!ATTLIST firmatario ruolo CDATA #REQUIRED>
+  <!ELEMENT dettagli_validazione (stato_blockchain, data_rilascio)>
+  <!ELEMENT stato_blockchain (#PCDATA)>
+  <!ELEMENT data_rilascio (italiano, inglese)>
+  <!ELEMENT italiano (#PCDATA)>
+  <!ELEMENT inglese (#PCDATA)>
+  <!ELEMENT relazione_tecnica_convalida (intestazione, sezione_1_anagrafica, sezione_2_fondamenti_giuridici, sezione_3_note_integrative, certificazione_integrita)>
+  <!ELEMENT intestazione (titolo_it, titolo_en, titolo_fr, titolare_menzione, protocollo, data, blockchain_fingerprint, status)>
+  <!ELEMENT titolo_it (#PCDATA)>
+  <!ELEMENT titolo_en (#PCDATA)>
+  <!ELEMENT titolo_fr (#PCDATA)>
+  <!ELEMENT titolare_menzione (#PCDATA)>
+  <!ELEMENT protocollo (#PCDATA)>
+  <!ELEMENT data (#PCDATA)>
+  <!ELEMENT blockchain_fingerprint (#PCDATA)>
+  <!ATTLIST blockchain_fingerprint algoritmo CDATA #REQUIRED>
+  <!ELEMENT status (#PCDATA)>
+  <!ELEMENT sezione_1_anagrafica (versione_italiana, versione_inglese, versione_francese)>
+  <!ELEMENT versione_italiana (titolo, (nominativo | premessa | dichiarazione | geolocalizzazione | eccezionalita | luogo_data_nascita | residenza | codice_fiscale | qualifica_professionale | titolo_validato | valutazione_merito | norma)*)>
+  <!ELEMENT versione_inglese (titolo, (full_name | premessa | dichiarazione | geolocalizzazione | eccezionalita | place_date_birth | residence | fiscal_code | professional_qualification | qualification_awarded | merit_evaluation | norma)*)>
+  <!ELEMENT versione_francese (titolo, (nom_prenom | premessa | dichiarazione | geolocalizzazione | eccezionalita | lieu_date_naissance | residence | code_fiscal | qualification_professionnelle | titre_valide | note_merite | norma)*)>
+  <!ELEMENT titolo (#PCDATA)>
+  <!ELEMENT nominativo (#PCDATA)>
+  <!ELEMENT luogo_data_nascita (#PCDATA)>
+  <!ELEMENT residenza (#PCDATA)>
+  <!ELEMENT codice_fiscale (#PCDATA)>
+  <!ELEMENT qualifica_professionale (#PCDATA)>
+  <!ELEMENT titolo_validato (#PCDATA)>
+  <!ELEMENT valutazione_merito (#PCDATA)>
+  <!ELEMENT full_name (#PCDATA)>
+  <!ELEMENT place_date_birth (#PCDATA)>
+  <!ELEMENT residence (#PCDATA)>
+  <!ELEMENT fiscal_code (#PCDATA)>
+  <!ELEMENT professional_qualification (#PCDATA)>
+  <!ELEMENT qualification_awarded (#PCDATA)>
+  <!ELEMENT merit_evaluation (#PCDATA)>
+  <!ELEMENT nom_prenom (#PCDATA)>
+  <!ELEMENT lieu_date_naissance (#PCDATA)>
+  <!ELEMENT code_fiscal (#PCDATA)>
+  <!ELEMENT qualification_professionnelle (#PCDATA)>
+  <!ELEMENT titre_valide (#PCDATA)>
+  <!ELEMENT note_merite (#PCDATA)>
+  <!ELEMENT sezione_2_fondamenti_giuridici (versione_italiana, versione_inglese, versione_francese)>
+  <!ELEMENT premessa (#PCDATA)>
+  <!ELEMENT norma (#PCDATA)>
+  <!ATTLIST norma riferimento CDATA #REQUIRED>
+  <!ELEMENT sezione_3_note_integrative (versione_italiana, versione_inglese, versione_francese)>
+  <!ELEMENT dichiarazione (#PCDATA)>
+  <!ELEMENT geolocalizzazione (#PCDATA)>
+  <!ELEMENT eccezionalita (#PCDATA)>
+  <!ELEMENT certificazione_integrita (titolo, testo_it, dichiarazione_ufficiale)>
+  <!ELEMENT dichiarazione_ufficiale (soggetto, testo_en)>
+  <!ATTLIST dichiarazione_ufficiale
+    luogo CDATA #REQUIRED
+    data CDATA #REQUIRED>
+  <!ELEMENT soggetto (#PCDATA)>
+  <!ELEMENT trattato_italiano (frammento_critico_iniziale, capitolo+, bibliografia_e_fonti)>
+  <!ELEMENT frammento_critico_iniziale (paragrafo+, conclusione_paragrafo_critico)>
+  <!ELEMENT paragrafo (#PCDATA)>
+  <!ATTLIST paragrafo punto CDATA #IMPLIED>
+  <!ELEMENT conclusione_paragrafo_critico (titolo, testo)>
+  <!ELEMENT testo (#PCDATA)>
+  <!ELEMENT capitolo (titolo, (punti_chiave | introduzione | sottosezione | sezione_speciale)*)>
+  <!ATTLIST capitolo numero CDATA #REQUIRED>
+  <!ELEMENT punti_chiave (punto+)>
+  <!ELEMENT punto (#PCDATA)>
+  <!ATTLIST punto organo CDATA #REQUIRED>
+  <!ELEMENT introduzione (#PCDATA)>
+  <!ELEMENT sottosezione (titolo, (premessa | tema | testo)*)>
+  <!ATTLIST sottosezione codice CDATA #REQUIRED>
+  <!ELEMENT tema (#PCDATA)>
+  <!ATTLIST tema nome CDATA #REQUIRED>
+  <!ELEMENT sezione_speciale (titolo, sottotitolo?, testo)>
+  <!ELEMENT sottotitolo (#PCDATA)>
+  <!ELEMENT bibliografia_e_fonti (fonte+)>
+  <!ELEMENT fonte (#PCDATA)>
+  <!ELEMENT trattato_inglese (titolo_sezione, titolo_opera, sottotitolo, genere, autore, credenziali_accademiche, validazioni, sezione+, conclusione_globale)>
+  <!ELEMENT titolo_sezione (#PCDATA)>
+  <!ELEMENT titolo_opera (#PCDATA)>
+  <!ELEMENT genere (#PCDATA)>
+  <!ELEMENT autore (#PCDATA)>
+  <!ELEMENT credenziali_accademiche (#PCDATA)>
+  <!ELEMENT validazioni (#PCDATA)>
+  <!ELEMENT sezione (titolo, (testo | premessa | paragrafo)*)>
+  <!ATTLIST sezione numero CDATA #REQUIRED>
+  <!ELEMENT conclusione_globale (titolo, testo)>
+  <!ELEMENT documenti_identita_e_fiscali (carta_identita_elettronica, tessera_sanitaria_team_cns)>
+  <!ELEMENT carta_identita_elettronica (stato_emittente, tipo_documento, numero_documento, comune_emissione, cognome, nome, luogo_data_nascita, sesso, statura, cittadinanza, data_emissione, data_scadenza, dati_retro)>
+  <!ELEMENT stato_emittente (#PCDATA)>
+  <!ELEMENT tipo_documento (#PCDATA)>
+  <!ELEMENT numero_documento (#PCDATA)>
+  <!ELEMENT comune_emissione (#PCDATA)>
+  <!ELEMENT cognome (#PCDATA)>
+  <!ELEMENT nome (#PCDATA)>
+  <!ELEMENT sesso (#PCDATA)>
+  <!ELEMENT statura (#PCDATA)>
+  <!ELEMENT cittadinanza (#PCDATA)>
+  <!ELEMENT data_emissione (#PCDATA)>
+  <!ELEMENT data_scadenza (#PCDATA)>
+  <!ELEMENT dati_retro (estremi_atto_nascita, indirizzo_residenza, codice_fiscale, mrz_linea1, mrz_linea2, mrz_linea3)>
+  <!ELEMENT estremi_atto_nascita (#PCDATA)>
+  <!ELEMENT indirizzo_residenza (#PCDATA)>
+  <!ELEMENT mrz_linea1 (#PCDATA)>
+  <!ELEMENT mrz_linea2 (#PCDATA)>
+  <!ELEMENT mrz_linea3 (#PCDATA)>
+  <!ELEMENT tessera_sanitaria_team_cns (denominazione, ente, cognome, nome, codice_fiscale, data_nascita, luogo_nascita, provincia_nascita, data_scadenza, identificativi_team)>
+  <!ELEMENT denominazione (#PCDATA)>
+  <!ELEMENT ente (#PCDATA)>
+  <!ELEMENT data_nascita (#PCDATA)>
+  <!ELEMENT luogo_nascita (#PCDATA)>
+  <!ELEMENT provincia_nascita (#PCDATA)>
+  <!ELEMENT identificativi_team (ssn_min_salute, numero_identificazione_tessera, codice_univoco_chip)>
+  <!ELEMENT ssn_min_salute (#PCDATA)>
+  <!ELEMENT numero_identificazione_tessera (#PCDATA)>
+  <!ELEMENT codice_univoco_chip (#PCDATA)>
+]>
+<documento_integrale
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/Francesco-Tolamsdt/fomation/main/documento_integrale.xsd">
