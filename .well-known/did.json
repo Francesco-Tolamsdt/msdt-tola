@@ -1,0 +1,90 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    "https://w3id.org/security/suites/jws-2020/v1",
+    "https://ec.europa.eu/digital-building-blocks/sites/display/EBSI/v3"
+  ],
+  "id": "did:ebsi:z24F7qL9xNkM5V8tJw3PsR6yBeZa",
+  "alsoKnownAs": [
+    "urn:oid:2.5.4.97:IT-TLOFNC80D30G348Z::MSDT-PARCS-ROOT",
+    "urn:oid:1.3.6.1.4.1.66881.3.1",
+    "urn:oid:1.3.6.1.4.1.66881.3.2.5",
+    "urn:oid:1.3.6.1.4.1.66881.3.2.6",
+    "did:web:francesco-tolamsdt.github.io:msdt-tola"
+  ],
+  "controller": "did:ebsi:z24F7qL9xNkM5V8tJw3PsR6yBeZa",
+  "verificationMethod": [
+    {
+      "id": "did:ebsi:z24F7qL9xNkM5V8tJw3PsR6yBeZa#keys-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:ebsi:z24F7qL9xNkM5V8tJw3PsR6yBeZa",
+      "publicKeyJwk": {
+        "kty": "EC",
+        "crv": "P-256",
+        "alg": "ES256",
+        "x": "W8n3XkLm4PqR9sTuVwXyZ1aBcDeFgHiJkLmNoPqRsTu",
+        "y": "T1uVwXyZ8aBcDeFgHiJkLmNoPqRsTuVwXyZ1aBcDeFg"
+      }
+    },
+    {
+      "id": "did:ebsi:z24F7qL9xNkM5V8tJw3PsR6yBeZa#namirial-eidas-key-1",
+      "type": "JsonWebKey2020",
+      "controller": "did:ebsi:z24F7qL9xNkM5V8tJw3PsR6yBeZa",
+      "publicKeyJwk": {
+        "kty": "RSA",
+        "use": "sig",
+        "alg": "PS256",
+        "n": "iRP3B-rGHTzevdvDVnFypPjAtx3Q_DUJgzHdCQcujisXwaN7EqlWTU6oJxPVEly85xOQb224he_GYYtu6nBqxhgtbbmQd-n1cMDzoys74MQW-Z_M-2-N_Zt2JU_Bdt7a_vqD7inz0w5JtdVVP8OVuIEmBdOCGgUa0ptzP_VUNHvz3nLA4GgkUpV-8Aze4OzJDj-3C9q-8pPbLHnWadKpl0L6ZE-aoZ15tnQcwCT1HBjorgWHnLbbQ3vZKLosm9Lq15j5Cgkl_jrERXXPq7wNVdhHb3Mel0Iiq61mtBhN1_dfIx4t3TzZYr3ZKoEiTtDCxqTD08GitmBehxSoNgeQRQ",
+        "e": "AQAB"
+      }
+    }
+  ],
+  "authentication": [
+    "did:ebsi:z24F7qL9xNkM5V8tJw3PsR6yBeZa#keys-1",
+    "did:ebsi:z24F7qL9xNkM5V8tJw3PsR6yBeZa#namirial-eidas-key-1"
+  ],
+  "assertionMethod": [
+    "did:ebsi:z24F7qL9xNkM5V8tJw3PsR6yBeZa#keys-1",
+    "did:ebsi:z24F7qL9xNkM5V8tJw3PsR6yBeZa#namirial-eidas-key-1"
+  ],
+  "service": [
+    {
+      "id": "did:ebsi:z24F7qL9xNkM5V8tJw3PsR6yBeZa#trusted-issuer-registry",
+      "type": "EbsiTrustedIssuerRegistry",
+      "serviceEndpoint": "https://ec.europa.eu/digital-building-blocks/sites/display/EBSI/Trusted+Issuers+Registry",
+      "properties": {
+        "accreditation": [
+          "urn:oid:1.3.6.1.4.1.66881.3.1",
+          "urn:oid:1.3.6.1.4.1.66881.3.2.5",
+          "urn:oid:1.3.6.1.4.1.66881.3.2.6"
+        ],
+        "shortName": "MSDT-PEN66881-ACAD",
+        "longName": "MSDT Academy - EQF/ELM Issuer - IT-TLOFNC80D30G348Z",
+        "parentAuthority": "urn:oid:1.3.6.1.4.1.66881.3",
+        "registeredAddress": "Via Ruggero Settimo 67, Partinico (PA), Italy",
+        "contactEmail": "francesco.tolamsdt@registerpec.it",
+        "creationDate": "2026-09-27"
+      }
+    },
+    {
+      "id": "did:ebsi:z24F7qL9xNkM5V8tJw3PsR6yBeZa#voiceprint-art50-endpoint",
+      "type": "TransparencyLivenessSupervisoryAuthority",
+      "serviceEndpoint": "urn:oid:1.3.6.1.4.1.66881.3.1"
+    },
+    {
+      "id": "did:ebsi:z24F7qL9xNkM5V8tJw3PsR6yBeZa#academy-issuer-endpoint",
+      "type": "EducationalCredentialsIssuer",
+      "serviceEndpoint": "urn:oid:1.3.6.1.4.1.66881.3.2.5"
+    },
+    {
+      "id": "did:ebsi:z24F7qL9xNkM5V8tJw3PsR6yBeZa#high-risk-oversight-endpoint",
+      "type": "HighRiskSystemsSupervisoryAuthority",
+      "serviceEndpoint": "urn:oid:1.3.6.1.4.1.66881.3.2.6"
+    },
+    {
+      "id": "did:ebsi:z24F7qL9xNkM5V8tJw3PsR6yBeZa#schema-repository",
+      "type": "CredentialSchemaRegistry",
+      "serviceEndpoint": "https://francesco-tolamsdt.github.io/msdt-tola/"
+    }
+  ]
+}
