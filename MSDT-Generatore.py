@@ -4,7 +4,8 @@
 """
 MSDT - METODO SCIENTIFICO DIGITALE TOLA
 Framework Europeo a Valenza Sistemica Generale
-Modello Ontologico Forense, Cibernetico di Terzo Ordine, Giurisdizione Esclusiva e WAI-ARIA
+Modello Ontologico Forense, Cibernetico di Terzo Ordine, Giurisdizione Esclusiva (Palermo) e Accessibilità WAI-ARIA
+Inclusione Valore Strutturale IANA PEN 66881 OID
 """
 
 import json
@@ -20,31 +21,24 @@ MSDT_METADATA = {
   },
   "@graph": [
     {
-      "@type": [
-        "ScholarlyArticle",
-        "TechArticle",
-        "CreativeWork"
-      ],
+      "@type": ["ScholarlyArticle", "TechArticle", "CreativeWork"],
       "@id": "https://doi.org/10.5281/zenodo.22007889",
       "name": {
         "@language": "it",
         "@value": "FRAMEWORK EUROPEO A VALENZA SISTEMICA GENERALE MSDT - METODO SCIENTIFICO DIGITALE TOLA"
       },
-      
       "comment": "--- BLOCCO PROPRIETÀ INTELLETTUALE E GIURISDIZIONE ESCLUSIVA ---",
       "copyrightYear": 2026,
       "copyrightHolder": {
         "@id": "urn:oid:2.5.4.97:IT-TLOFNC80D30G348Z"
       },
       "copyrightNotice": "PROPRIETÀ INTELLETTUALE ESCLUSIVA: Il Framework MSDT (Metodo Scientifico Digitale Tola) è proprietà intellettuale assoluta di Francesco Tola. Struttura forense transfrontaliera protetta da diritto d'autore e asseverazione algoritmica, con validità erga omnes in tutti gli Stati Membri dell'Unione Europea (Regolamenti UE 2024/1689, eIDAS 2.0, e-CODEX). CLAUSOLA DI GIURISDIZIONE ESCLUSIVA: In ragione della localizzazione geospaziale della Sede Esecutiva Primaria a Partinico (PA), per qualsivoglia controversia legale, violazione di proprietà intellettuale, o disputa tecnica e amministrativa derivante dall'utilizzo dell'infrastruttura, viene stabilita la competenza territoriale esclusiva, assoluta e inderogabile del Foro di Palermo, Italia.",
-      
       "author": {
         "@type": "Person",
         "@id": "urn:oid:2.5.4.97:IT-TLOFNC80D30G348Z",
         "name": "Francesco Tola",
         "taxID": "TLOFNC80D30G348Z"
       },
-      
       "comment": "--- BLOCCO GEOLOCALIZZAZIONE SPAZIALE FORENSE ---",
       "spatialCoverage": [
         {
@@ -82,45 +76,27 @@ MSDT_METADATA = {
           }
         }
       ],
-
       "comment": "--- BLOCCO ACCESSIBILITÀ UNIVERSALE E INCLUSIONE CIBERNETICA (DISABILITÀ) ---",
       "accessibilityAPI": "ARIA",
       "accessibilityControl": [
-        "fullKeyboardControl",
-        "fullMouseControl",
-        "fullTouchControl",
-        "fullVoiceControl"
+        "fullKeyboardControl", "fullMouseControl", "fullTouchControl", "fullVoiceControl"
       ],
       "accessibilityFeature": [
-        "structuralNavigation",
-        "highContrastDisplay",
-        "readingOrder",
-        "unrolledList",
-        "tableOfContents",
-        "taggedPDF",
-        "largePrint",
-        "alternativeText",
-        "displayTransformability",
-        "synchronizedAudioText",
-        "ttsMarkup"
+        "structuralNavigation", "highContrastDisplay", "readingOrder", "unrolledList",
+        "tableOfContents", "taggedPDF", "largePrint", "alternativeText",
+        "displayTransformability", "synchronizedAudioText", "ttsMarkup"
       ],
       "accessibilityHazard": [
-        "none",
-        "noFlashingHazard",
-        "noMotionSimulationHazard",
-        "noSoundHazard"
+        "none", "noFlashingHazard", "noMotionSimulationHazard", "noSoundHazard"
       ],
       "accessMode": [
-        "textual",
-        "visual",
-        "auditory"
+        "textual", "visual", "auditory"
       ],
       "accessModeSufficient": [
         {"@type": "ItemList", "itemListElement": ["textual"]},
         {"@type": "ItemList", "itemListElement": ["textual", "auditory"]}
       ],
       "accessibilitySummary": "Infrastruttura cibernetica nativamente accessibile e conforme agli standard ISO/IEC 40500:2012 (WCAG 2.2 Livello AAA), all'European Accessibility Act (Direttiva UE 2019/882), alla Legge Stanca (Legge 4/2004 e D.Lgs 106/2018) e alla Direttiva UE 2016/2102. Integrazione semantica avanzata WAI-ARIA a tutela assoluta delle persone con disabilità visiva (ipovedenti e non vedenti) e motoria, garantendo interazione universale e priva di bias computazionali tramite screen reader, display braille e tecnologie assistive di sintesi vocale.",
-
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -141,20 +117,15 @@ MSDT_METADATA = {
           "https://francesco-tolamsdt.github.io/msdt-tola/context/v1.jsonld",
           "https://w3id.org/security/suites/ed25519-2020/v1"
         ],
-        "type": [
-          "VerifiablePresentation",
-          "MsdtAIHumanSovereigntyFusion"
-        ],
+        "type": ["VerifiablePresentation", "MsdtAIHumanSovereigntyFusion"],
         "presentation_context": "European Union AI Act Compliance - Article 14 (Human Oversight)",
         "holder": "urn:oid:1.3.6.1.4.1.66881.3.2",
         "human_invariant_supervisor": "TLOFNC80D30G348Z",
         "issuanceDate": "2026-10-02T21:25:00Z",
         "verifiableCredential": [
           {
-            "type": [
-              "VerifiableCredential",
-              "MsdtAcademyHumanOversightCredential"
-            ],
+            "comment": "--- MODULO 1: AUTORITÀ UMANA (OID .5) - IANA PEN 66881 ---",
+            "type": ["VerifiableCredential", "MsdtAcademyHumanOversightCredential"],
             "issuer": "urn:oid:1.3.6.1.4.1.66881.3.2.5",
             "issuanceDate": "2026-10-02T21:25:00Z",
             "credentialSubject": {
@@ -174,10 +145,8 @@ MSDT_METADATA = {
             }
           },
           {
-            "type": [
-              "VerifiableCredential",
-              "MsdtHighRiskSystemInterlock"
-            ],
+            "comment": "--- MODULO 2: MACCHINA AD ALTO RISCHIO (OID .6) - IANA PEN 66881 ---",
+            "type": ["VerifiableCredential", "MsdtHighRiskSystemInterlock"],
             "issuer": "urn:oid:1.3.6.1.4.1.66881.3.2.6",
             "issuanceDate": "2026-10-02T21:25:00Z",
             "credentialSubject": {
@@ -197,6 +166,7 @@ MSDT_METADATA = {
           }
         ],
         "fusion_proof": {
+          "comment": "--- MODULO 3: IL SIGILLO DEL GENITORE FORENSE (OID .2) - ROOT IANA PEN 66881 ---",
           "type": "Ed25519Signature2020",
           "created": "2026-10-02T21:25:00Z",
           "domain": "api.world-trust.msdt.eu",
@@ -217,19 +187,17 @@ MSDT_METADATA = {
   ]
 }
 
-def export_jsonld(filepath: str = "api/msdt-master-framework.jsonld") -> None:
-    """Valida, stampa e gestisce il salvataggio cibernetico del Framework."""
+def export_jsonld(filepath: str = "msdt-master-framework.jsonld") -> None:
     json_output = json.dumps(MSDT_METADATA, indent=2, ensure_ascii=False)
     print("--- INIZIO VERIFICA STRUTTURALE MSDT ---")
     print(json_output)
-    print("\n[OK] Record JSON-LD generato, validato e stampato con successo!")
+    print("\n[OK] Record JSON-LD generato con successo.")
 
     try:
         with open(filepath, "w", encoding="utf-8") as file:
             file.write(json_output)
-        print(f"[OK] Salvataggio locale completato: {filepath}")
-    except (PermissionError, OSError):
-        print("[INFO] Ambiente protetto: scrittura su disco bypassata. Codice pronto per il copia-incolla.")
+    except OSError:
+        pass
 
 if __name__ == "__main__":
     export_jsonld()
