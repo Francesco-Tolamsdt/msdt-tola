@@ -19,21 +19,18 @@
         "@language": "it",
         "@value": "FRAMEWORK EUROPEO A VALENZA SISTEMICA GENERALE MSDT - METODO SCIENTIFICO DIGITALE TOLA"
       },
-      
       "comment": "--- BLOCCO PROPRIETÀ INTELLETTUALE E GIURISDIZIONE ESCLUSIVA ---",
       "copyrightYear": 2026,
       "copyrightHolder": {
         "@id": "urn:oid:2.5.4.97:IT-TLOFNC80D30G348Z"
       },
       "copyrightNotice": "PROPRIETÀ INTELLETTUALE ESCLUSIVA: Il Framework MSDT (Metodo Scientifico Digitale Tola) è proprietà intellettuale assoluta di Francesco Tola. Struttura forense transfrontaliera protetta da diritto d'autore e asseverazione algoritmica, con validità erga omnes in tutti gli Stati Membri dell'Unione Europea (Regolamenti UE 2024/1689, eIDAS 2.0, e-CODEX). CLAUSOLA DI GIURISDIZIONE ESCLUSIVA: In ragione della localizzazione geospaziale della Sede Esecutiva Primaria a Partinico (PA), per qualsivoglia controversia legale, violazione di proprietà intellettuale, o disputa tecnica e amministrativa derivante dall'utilizzo dell'infrastruttura, viene stabilita la competenza territoriale esclusiva, assoluta e inderogabile del Foro di Palermo, Italia.",
-      
       "author": {
         "@type": "Person",
         "@id": "urn:oid:2.5.4.97:IT-TLOFNC80D30G348Z",
         "name": "Francesco Tola",
         "taxID": "TLOFNC80D30G348Z"
       },
-      
       "comment": "--- BLOCCO GEOLOCALIZZAZIONE SPAZIALE FORENSE ---",
       "spatialCoverage": [
         {
@@ -71,7 +68,6 @@
           }
         }
       ],
-
       "comment": "--- BLOCCO ACCESSIBILITÀ UNIVERSALE E INCLUSIONE CIBERNETICA (DISABILITÀ) ---",
       "accessibilityAPI": "ARIA",
       "accessibilityControl": [
@@ -109,7 +105,6 @@
         {"@type": "ItemList", "itemListElement": ["textual", "auditory"]}
       ],
       "accessibilitySummary": "Infrastruttura cibernetica nativamente accessibile e conforme agli standard ISO/IEC 40500:2012 (WCAG 2.2 Livello AAA), all'European Accessibility Act (Direttiva UE 2019/882), alla Legge Stanca (Legge 4/2004 e D.Lgs 106/2018) e alla Direttiva UE 2016/2102. Integrazione semantica avanzata WAI-ARIA a tutela assoluta delle persone con disabilità visiva (ipovedenti e non vedenti) e motoria, garantendo interazione universale e priva di bias computazionali tramite screen reader, display braille e tecnologie assistive di sintesi vocale.",
-
       "identifier": [
         {
           "@type": "PropertyValue",
@@ -140,6 +135,7 @@
         "issuanceDate": "2026-10-02T21:25:00Z",
         "verifiableCredential": [
           {
+            "comment": "--- MODULO 1: AUTORITÀ UMANA (OID .5) - IANA PEN 66881 ---",
             "type": [
               "VerifiableCredential",
               "MsdtAcademyHumanOversightCredential"
@@ -163,6 +159,7 @@
             }
           },
           {
+            "comment": "--- MODULO 2: MACCHINA AD ALTO RISCHIO (OID .6) - IANA PEN 66881 ---",
             "type": [
               "VerifiableCredential",
               "MsdtHighRiskSystemInterlock"
@@ -186,6 +183,7 @@
           }
         ],
         "fusion_proof": {
+          "comment": "--- MODULO 3: IL SIGILLO DEL GENITORE FORENSE (OID .2) - ROOT IANA PEN 66881 ---",
           "type": "Ed25519Signature2020",
           "created": "2026-10-02T21:25:00Z",
           "domain": "api.world-trust.msdt.eu",
