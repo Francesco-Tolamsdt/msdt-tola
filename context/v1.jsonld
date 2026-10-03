@@ -1,0 +1,25 @@
+{
+  "@context": {
+    "msdt": "https://francesco-tolamsdt.github.io/msdt-tola/schema/v1#",
+    "MsdtAIHumanSovereigntyFusion": "msdt:MsdtAIHumanSovereigntyFusion",
+    "MsdtAcademyHumanOversightCredential": "msdt:MsdtAcademyHumanOversightCredential",
+    "MsdtHighRiskSystemInterlock": "msdt:MsdtHighRiskSystemInterlock",
+    "presentation_context": "msdt:presentation_context",
+    "human_invariant_supervisor": "msdt:human_invariant_supervisor",
+    "certified_role": "msdt:certified_role",
+    "qualification_level": "msdt:qualification_level",
+    "clearance_status": "msdt:clearance_status",
+    "pen": "msdt:pen",
+    "human_invariant": "msdt:human_invariant",
+    "system_id": "msdt:system_id",
+    "risk_classification": "msdt:risk_classification",
+    "system_status": "msdt:system_status",
+    "telemetry_hash": "msdt:telemetry_hash",
+    "pen_reference": "msdt:pen_reference",
+    "fusion_proof": "msdt:fusion_proof",
+    "nato_vendor_context": "msdt:nato_vendor_context",
+    "oid_root": "msdt:oid_root",
+    "doi": "msdt:doi",
+    "ncage_required": "msdt:ncage_required"
+  }
+}
