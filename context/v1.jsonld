@@ -1,25 +1,385 @@
 {
   "@context": {
-    "msdt": "https://francesco-tolamsdt.github.io/msdt-tola/schema/v1#",
-    "MsdtAIHumanSovereigntyFusion": "msdt:MsdtAIHumanSovereigntyFusion",
-    "MsdtAcademyHumanOversightCredential": "msdt:MsdtAcademyHumanOversightCredential",
-    "MsdtHighRiskSystemInterlock": "msdt:MsdtHighRiskSystemInterlock",
-    "presentation_context": "msdt:presentation_context",
-    "human_invariant_supervisor": "msdt:human_invariant_supervisor",
-    "certified_role": "msdt:certified_role",
-    "qualification_level": "msdt:qualification_level",
-    "clearance_status": "msdt:clearance_status",
-    "pen": "msdt:pen",
-    "human_invariant": "msdt:human_invariant",
-    "system_id": "msdt:system_id",
-    "risk_classification": "msdt:risk_classification",
-    "system_status": "msdt:system_status",
-    "telemetry_hash": "msdt:telemetry_hash",
-    "pen_reference": "msdt:pen_reference",
-    "fusion_proof": "msdt:fusion_proof",
-    "nato_vendor_context": "msdt:nato_vendor_context",
-    "oid_root": "msdt:oid_root",
-    "doi": "msdt:doi",
-    "ncage_required": "msdt:ncage_required"
-  }
+    "@vocab": "https://schema.org/",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "prov": "http://www.w3.org/ns/prov#",
+    "sec": "https://w3id.org/security#",
+    "dc": "http://purl.org/dc/elements/1.1/",
+    "xmp": "http://ns.adobe.com/xap/1.0/",
+    "fibo": "https://spec.edmcouncil.org/fibo/ontology/FND/ProductsAndServices/FinancialProductsAndServices/",
+    "msdt": "http://www.msdt.university/schema/v3#"
+  },
+  "@graph": [
+    {
+      "@type": [
+        "ScholarlyArticle",
+        "TechArticle",
+        "CreativeWork",
+        "SoftwareApplication"
+      ],
+      "@id": "https://doi.org/10.5281/zenodo.23119250",
+      "name": "METODO SCIENTIFICO DIGITALE TOLA (Msdt) FRAMEWORK EUROPEO iana 66881",
+      "alternateName": [
+        {
+          "@language": "en",
+          "@value": "TOLA DIGITAL SCIENTIFIC METHOD (Msdt) EUROPEAN FRAMEWORK iana 66881"
+        },
+        {
+          "@language": "fr",
+          "@value": "MÉTHODE SCIENTIFIQUE NUMÉRIQUE TOLA (Msdt) CADRE EUROPÉEN iana 66881"
+        }
+      ],
+      "inLanguage": [
+        "it",
+        "en",
+        "fr"
+      ],
+      "dc:title": "METODO SCIENTIFICO DIGITALE TOLA (Msdt) FRAMEWORK EUROPEO iana 66881",
+      "dc:creator": "Francesco Tola",
+      "dc:identifier": "IANA PEN 66881",
+      "xmp:CreatorTool": "MSDT Root OID Validation Node 1.3.6.1.4.1.66881",
+      "xmp:CreateDate": "2026-10-03T22:05:11+02:00",
+      
+      "comment_horizon": "--- BLOCCO SOSTENIBILITÀ E RICERCA: HORIZON EUROPE ---",
+      "msdt:HorizonEuropeAlignment": {
+        "@type": "FundingScheme",
+        "name": "Allineamento Strategico Programma Horizon Europe",
+        "description": "Integrazione nativa del framework MSDT con i pilastri di ricerca, innovazione e sovranità tecnologica del Programma Quadro Horizon Europe dell'Unione Europea, a garanzia dei requisiti di Trustworthy AI.",
+        "funder": {
+          "@type": "Organization",
+          "name": "Commissione Europea",
+          "programName": "Horizon Europe"
+        },
+        "strategicPillar": "Trustworthy AI, Human-centric Technology & European Digital Sovereignty",
+        "cyberneticInstruction": {
+          "@language": "en",
+          "@value": "HORIZON_EUROPE_ALIGNED. Architecture natively supports EU research funding compliance and Trustworthy AI ethical prerequisites."
+        }
+      },
+      
+      "comment_jurisdiction": "--- BLOCCO GIURISDIZIONE ESCLUSIVA E INDEROGABILE ---",
+      "msdt:ExclusiveJurisdiction": {
+        "@type": "LegalRequirement",
+        "name": "Clausola di Giurisdizione Esclusiva, Assoluta e Inderogabile",
+        "description": "Per qualsivoglia controversia legale, violazione di proprietà intellettuale, disputa tecnica, amministrativa o risarcitoria derivante dall'utilizzo, decodifica o applicazione dell'infrastruttura MSDT, viene stabilita la competenza territoriale esclusiva, assoluta e inderogabile del Foro di Palermo, Italia.",
+        "spatialCoverage": {
+          "@type": "Place",
+          "name": "Tribunale di Palermo",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Palermo",
+            "addressRegion": "Sicilia",
+            "addressCountry": "IT"
+          }
+        },
+        "cyberneticInstruction": {
+          "@language": "en",
+          "@value": "JURISDICTION_LOCK_ENGAGED. Exclusive legal competence hardcoded to Foro di Palermo (Italy)."
+        }
+      },
+      
+      "comment_ip_tax": "--- BLOCCO PROPRIETÀ INTELLETTUALE, FISCALITÀ E SISTEMI DI PAGAMENTO ---",
+      "msdt:IntellectualPropertyAndRoyalty": {
+        "copyrightYear": 2026,
+        "copyrightHolder": {
+          "@id": "urn:oid:2.5.4.97:IT-TLOFNC80D30G348Z"
+        },
+        "legalNotice": "PROPRIETÀ INTELLETTUALE ESCLUSIVA: Framework MSDT proprietà assoluta di Francesco Tola. Struttura forense protetta da diritto d'autore e asseverazione algoritmica, validità erga omnes UE (Reg. UE 2024/1689, eIDAS 2.0).",
+        "taxExemption": "Regime fiscale diritto d'autore ex Art.3 D.P.R. 633/1972 per sfruttamento opera ingegno.",
+        "paymentSystemRestrictions": "Pagamento esclusivamente tramite circuito bancario SEPA/SWIFT PSD2 con IBAN intestato a Francesco Tola. Esclusi circuiti non bancari per requisiti MSDT L5."
+      },
+      
+      "comment_ashby_interlock": "--- BLOCCO INTERBLOCCO DETERMINISTICO DI ASHBY & ART. 14 AI ACT ---",
+      "msdt:AshbyDeterministicInterlock": {
+        "@type": "ControlAction",
+        "name": "Kill-Switch Cibernetico - Legge della Varietà Necessaria",
+        "description": "Applicazione Art.14 AI Act tramite Legge di Ashby. AI a varietà limitata, inidonea ad autogoverno in scenari ad alto rischio.",
+        "machineState": "DETERMINISTIC_HALT_ENGAGED",
+        "overrideRequirement": "Varietà biologico-cibernetica dell'Invariante Umano Sovrano Francesco Tola",
+        "cyberneticKillSwitch": {
+          "@language": "en",
+          "@value": "FATAL_INTERLOCK. AI Variety < System Variety. Execution paused. Human-in-the-Loop cryptographic token required."
+        },
+        "royaltyTrigger": "Token sblocco umano attiva esigibilità royalty esente IVA ex Art.3 D.P.R. 633/72 su circuito bancario."
+      },
+      
+      "comment_supervision": "--- BLOCCO LOG DI REVISIONE E GIURAMENTO SCIENTIFICO (D.P.R. 445/2000) ---",
+      "humanOversightLog": {
+        "@type": "ReviewAction",
+        "actionStatus": "https://schema.org/CompletedActionStatus",
+        "agent": {
+          "@type": "Person",
+          "@id": "urn:oid:2.5.4.97:IT-TLOFNC80D30G348Z",
+          "name": "Francesco Tola",
+          "taxID": "TLOFNC80D30G348Z",
+          "birthDate": "1980-04-30",
+          "birthPlace": "Partinico (PA)",
+          "jobTitle": "Supervisore Umano Sovrano / Ricercatore Scientifico Indipendente"
+        },
+        "startTime": "2026-10-03T22:05:11+02:00",
+        "instrument": {
+          "@type": "SoftwareApplication",
+          "name": "MSDT Root OID 1.3.6.1.4.1.66881 Validation Node"
+        },
+        "formalAsseveration": {
+          "@type": "Statement",
+          "name": "ATTO MSDT DI ASSEVERAZIONE E GIURAMENTO SCIENTIFICO",
+          "legalBasis": "D.P.R. 445/2000 e artt.483,495,496 c.p.; GDPR; Reg.UE 2024/1689 AI Act",
+          "text": "Il sottoscritto Francesco Tola, TLOFNC80D30G348Z, autore e supervisore Human-in-the-Loop del framework MSDT, rende solenne giuramento di presidio e garanzia a tutela di verità oggettiva e progresso conoscenza.",
+          "signatory": "urn:oid:2.5.4.97:IT-TLOFNC80D30G348Z"
+        }
+      },
+      
+      "comment_state_protocols": "--- BLOCCO PROTOCOLLI DI STATO E REGISTRI P.A. ---",
+      "msdt:StateProtocolsAnchor": {
+        "@type": "GovernmentService",
+        "name": "Incardinamento Istituzionale di Stato",
+        "provider": {
+          "@type": "GovernmentOrganization",
+          "name": "Repubblica Italiana"
+        },
+        "registeredNodes": [
+          {
+            "@type": "Message",
+            "recipient": "CNR",
+            "identifier": "cnrAN02EB1 | 0180933",
+            "dateReceived": "2026-04-20"
+          },
+          {
+            "@type": "Message",
+            "recipient": "MIMIT",
+            "description": "Tutela proprietà intellettuale e sovranità digitale"
+          },
+          {
+            "@type": "Message",
+            "recipient": "Garante Privacy",
+            "description": "Conformità GDPR e tutela dati biometrici TLOFNC80D30G348Z"
+          }
+        ]
+      },
+      
+      "comment_voice_anti_fake": "--- BLOCCO INVARIANTE BIOMETRICO ANTI-FAKE ---",
+      "msdt:SovereignBiometricAnchor": {
+        "@type": "SecuredAudioEvidence",
+        "description": "Impronta vocale Proof of Liveness Francesco Tola anti-deepfake",
+        "mediaObject": "AUDIO-2026-09-12-15-14-27.m4a",
+        "human_invariant_supervisor": "TLOFNC80D30G348Z",
+        "validation_dss_eidas": {
+          "@type": "CryptographicValidation",
+          "validator": "DSS European Commission",
+          "validationTime": "2026-10-03T09:28:52Z",
+          "signatureFormat": "CAdES-BASELINE-B",
+          "structuralValidation": "VALID",
+          "signerIdentity": "TOLA FRANCESCO (TINIT-TLOFNC80D30G348Z)",
+          "certificateAuthority": "Namirial CA Firma Qualificata",
+          "digestMethod": "SHA256",
+          "audioPayloadDigest": "0V+6Vn7THf4DMBXT0VyzxzLho1SyXp/82tFpBCCOUQw="
+        },
+        "blockchain_anchoring": {
+          "@type": "OpenTimestampsProof",
+          "network": "Bitcoin Mainnet",
+          "ots_file": "AUDIO-2026-09-12-15-14-27.m4a.ots",
+          "timestamp_validation": "CONFIRMED_NO_TAMPERING"
+        }
+      },
+      
+      "comment_eidas_transmission": "--- BLOCCO e-CODEX & eIDAS 2.0 ---",
+      "msdt:EuropeanDeliveryInterlock": {
+        "@type": "Message",
+        "name": "SERCQ - eIDAS",
+        "sender": {
+          "@type": "Person",
+          "@id": "urn:oid:2.5.4.97:IT-TLOFNC80D30G348Z"
+        },
+        "messageIdentifier": "<opec228.20260418180901.11226.01.1.02@pec-email.com>",
+        "dateSent": "2026-04-18T18:09:01+02:00",
+        "headline": "Deposito asseverazione tecnica ex Reg.UE 2024/1689 - Protocollo MSDT/2026 - Prof. Francesco Tola"
+      },
+      
+      "comment_ltv_bridge": "--- BLOCCO LTV-BRIDGE eIDAS: ESTENSIONE NATIVA A 20 ANNI ---",
+      "msdt:LTVBridge": {
+        "@type": "UpdateAction",
+        "name": "Modulo LTV-Bridge eIDAS",
+        "description": "Superamento diagnostica DSS 'No long term availability' tramite marca qualificata QTSP + OTS Bitcoin per validità forense 20 anni",
+        "startTime": "2026-10-03T22:05:11+02:00",
+        "endTime": "2046-10-03T22:05:11+02:00",
+        "instrument": {
+          "@type": "SoftwareApplication",
+          "name": "MSDT Native Time-Stamping Protocol - Namirial QTSA + OpenTimestamps"
+        }
+      },
+      
+      "spatialCoverage": [
+        {
+          "@type": "Place",
+          "name": "Sede Primaria MSDT",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Partinico",
+            "addressCountry": "IT"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "38.046830",
+            "longitude": "13.111812"
+          }
+        },
+        {
+          "@type": "Place",
+          "name": "Hub Transfrontaliero CERN/Zenodo/OpenAIRE",
+          "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "Meyrin / Genève",
+            "addressCountry": "CH"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "46.233058",
+            "longitude": "6.053229"
+          }
+        }
+      ],
+      
+      "comment_accessibility": "--- BLOCCO ACCESSIBILITÀ UNIVERSALE WCAG 2.2 AAA ---",
+      "accessibilityAPI": "ARIA",
+      "accessibilityControl": [
+        "fullKeyboardControl",
+        "fullMouseControl",
+        "fullTouchControl",
+        "fullVoiceControl"
+      ],
+      "accessibilityFeature": [
+        "structuralNavigation",
+        "highContrastDisplay",
+        "readingOrder",
+        "unrolledList",
+        "tableOfContents",
+        "taggedPDF",
+        "largePrint",
+        "alternativeText",
+        "displayTransformability",
+        "synchronizedAudioText",
+        "ttsMarkup"
+      ],
+      "accessibilityHazard": [
+        "none",
+        "noFlashingHazard",
+        "noMotionSimulationHazard",
+        "noSoundHazard"
+      ],
+      "accessMode": [
+        "textual",
+        "visual",
+        "auditory"
+      ],
+      "accessibilitySummary": "Conforme ISO/IEC 40500:2012 WCAG 2.2 AAA, EAA 2019/882, Legge Stanca 4/2004, Dir.UE 2016/2102",
+      
+      "comment_openaire": "--- BLOCCO OPENAIRE COMMUNITY - DIRITTO CIBERNETICO ---",
+      "keywords": [
+        "DIRITTO Cibernetico",
+        "MSDT",
+        "IANA PEN 66881",
+        "EU AI Act Art.14",
+        "eIDAS 2.0",
+        "OpenAIRE"
+      ],
+      "isPartOf": {
+        "@type": "CreativeWorkSeries",
+        "name": "OpenAIRE Community - DIRITTO Cibernetico",
+        "identifier": "openaire:community:diritto-cibernetico"
+      },
+      "msdt:CyberneticLawCompliance": {
+        "@type": "LegalRequirement",
+        "name": "Conformità Diritto Cibernetico Europeo - OpenAIRE",
+        "cyberneticInstruction": {
+          "@language": "en",
+          "@value": "CYBERNETIC_LAW_ANCHORED. OPENAIRE_COMMUNITY=DIRITTO_Cibernetico. Harvesting OAI-PMH enabled."
+        }
+      },
+      
+      "comment_iana_pen": "--- BLOCCO FUSIONE E SOVRANITÀ IANA PEN 66881 ---",
+      "msdt:aiHumanSovereigntyFusionProtocol": {
+        "@context": [
+          "https://www.w3.org/2018/credentials/v1",
+          "https://francesco-tolamsdt.github.io/msdt-tola/context/v1.jsonld",
+          "https://w3id.org/security/suites/ed25519-2020/v1"
+        ],
+        "type": [
+          "VerifiablePresentation",
+          "MsdtAIHumanSovereigntyFusion"
+        ],
+        "presentation_context": "European Union AI Act Compliance - Article 14 (Human Oversight)",
+        "holder": "urn:oid:1.3.6.1.4.1.66881.3.2",
+        "human_invariant_supervisor": "TLOFNC80D30G348Z",
+        "issuanceDate": "2026-10-03T22:05:11Z",
+        "verifiableCredential": [
+          {
+            "comment_module1": "--- MODULO 1: AUTORITÀ UMANA (OID .5) ---",
+            "type": [
+              "VerifiableCredential",
+              "MsdtAcademyHumanOversightCredential"
+            ],
+            "issuer": "urn:oid:1.3.6.1.4.1.66881.3.2.5",
+            "issuanceDate": "2026-10-03T22:05:11Z",
+            "credentialSubject": {
+              "id": "did:web:francesco-tolamsdt.github.io:msdt-tola:human:TLOFNC80D30G348Z",
+              "certified_role": "Chief AI Ethics Officer",
+              "qualification_level": "EQF Level 5",
+              "clearance_status": "ACTIVE",
+              "pen": "66881",
+              "human_invariant": "TLOFNC80D30G348Z"
+            },
+            "proof": {
+              "type": "Ed25519Signature2020",
+              "created": "2026-10-03T22:05:11Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "did:web:francesco-tolamsdt.github.io:msdt-tola:human:TLOFNC80D30G348Z#human-auth-key"
+            }
+          },
+          {
+            "comment_module2": "--- MODULO 2: MACCHINA HIGH-RISK (OID .6) ---",
+            "type": [
+              "VerifiableCredential",
+              "MsdtHighRiskSystemInterlock"
+            ],
+            "issuer": "urn:oid:1.3.6.1.4.1.66881.3.2.6",
+            "issuanceDate": "2026-10-03T22:05:11Z",
+            "credentialSubject": {
+              "system_id": "urn:uuid:industrial-ai-core-99x",
+              "risk_classification": "HIGH_RISK_ANNEX_III",
+              "system_status": "INTERLOCK_ENGAGED_AWAITING_HUMAN",
+              "telemetry_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+              "pen_reference": "1.3.6.1.4.1.66881.3.2.6"
+            },
+            "proof": {
+              "type": "Ed25519Signature2020",
+              "created": "2026-10-03T22:05:11Z",
+              "proofPurpose": "assertionMethod",
+              "verificationMethod": "urn:oid:1.3.6.1.4.1.66881.3.2.6#machine-telemetry-key"
+            }
+          }
+        ],
+        "fusion_proof": {
+          "comment_module3": "--- MODULO 3: SIGILLO ROOT (OID .2) ---",
+          "type": "Ed25519Signature2020",
+          "created": "2026-10-03T22:05:11Z",
+          "domain": "api.world-trust.msdt.eu",
+          "challenge": "audit-challenge-req-778899",
+          "proofPurpose": "authentication",
+          "verificationMethod": "urn:oid:1.3.6.1.4.1.66881.3.2#master-root-key"
+        },
+        "nato_vendor_context": {
+          "pen": 66881,
+          "doi": "10.5281/zenodo.20177272",
+          "doi_this_version": "10.5281/zenodo.23119250",
+          "validation_status": "IP Ownership Confirmed - TLOFNC80D30G348Z",
+          "eu_compliance": [
+            "EU AI Act Art.14",
+            "eIDAS 2.0",
+            "OpenAIRE DIRITTO Cibernetico"
+          ]
+        }
+      }
+    }
+  ]
 }
