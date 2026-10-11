@@ -1,0 +1,381 @@
+-- ==============================================================================
+-- METODO SCIENTIFICO DIGITALE TOLA (MSDT) Framework
+-- Master Management Information Base (MIB) & IANA PEN 66881 Architecture
+-- ==============================================================================
+
+METODO-SCIENTIFICO-DIGITALE-TOLA-MSDT-MIB DEFINITIONS ::= BEGIN
+
+IMPORTS
+    MODULE-IDENTITY, OBJECT-TYPE, enterprises
+        FROM RFC1155-SMI
+    DisplayString
+        FROM SNMPv2-TC;
+
+msdtTola MODULE-IDENTITY
+    LAST-UPDATED "202610110000Z"
+    ORGANIZATION "Metodo Scientifico Digitale Tola (MSDT)"
+    CONTACT-INFO "Francesco Tola - IANA PEN 66881"
+    DESCRIPTION  "Master MIB architecture for Metodo Scientifico Digitale Tola (MSDT) infrastructure."
+    ::= { enterprises 66881 }
+
+-- ------------------------------------------------------------------------------
+-- GRUPPO 0: GOVERNANCE POLICY (1.3.6.1.4.1.66881.0)
+-- ------------------------------------------------------------------------------
+msdtPolicies OBJECT IDENTIFIER ::= { msdt-tola 0 }
+
+msdtEthicalStandardsPolicy OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Ethical standards and sustainability policy"
+    ::= { msdtPolicies 1 }
+
+metodoScientificoDigitaleTolaMsdt OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Metodo Scientifico Digitale Tola (MSDT) policy - Valuation Floor \"963k EUR\""
+    ::= { msdtPolicies 2 }
+
+
+-- ------------------------------------------------------------------------------
+-- GRUPPO 1: DISTRIBUTED LEDGER NOTARIZATION & TIMESTAMPING (1.3.6.1.4.1.66881.1)
+-- ------------------------------------------------------------------------------
+msdtDistributedLedgerNotarization OBJECT IDENTIFIER ::= { msdt-tola 1 }
+
+msdtNotarizationIsoGovernanceBaseline OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Baseline for integrating international standards and compliance certifications within notarization architecture"
+    ::= { msdtDistributedLedgerNotarization 1 }
+
+msdtIso9001NotarizedQualityManagement OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Technical specifications for cryptographic notarization and digital audit verification of quality management systems."
+    ::= { msdtDistributedLedgerNotarization 2 }
+
+msdtIso14001EnvironmentalComplianceTracking OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Standardized tracking and immutable validation protocols for environmental transition and green management systems (ISO 14001 environmental management and ecological compliance)."
+    ::= { msdtDistributedLedgerNotarization 3 }
+
+msdtIso45001OccupationalSafetyNotarization OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Cryptographic recording and safety compliance validation for high risk working environments and industrial accident prevention."
+    ::= { msdtDistributedLedgerNotarization 4 }
+
+msdtIso42001AiGovernanceAndOversight OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Compliance protocols and notarization standards for artificial intelligence systems risk management and human-in-the-loop verification."
+    ::= { msdtDistributedLedgerNotarization 5 }
+
+msdtIsoIec27001InformationSecurityAudit OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Security guidelines data protection standards and immutable record keeping for enterprise digital infrastructure."
+    ::= { msdtDistributedLedgerNotarization 6 }
+
+msdtIso42001GlobalAiTrustAndNotarization OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Advanced compliance protocols for international artificial intelligence systems integration leveraging ISO 42001 standards and immutable cryptographic notarization."
+    ::= { msdtDistributedLedgerNotarization 7 }
+
+msdtIsoIec27001GlobalCyberResilienceAudit OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Next generation information security management and cryptographic audit trails aligned with ISO/IEC standards for global digital protection."
+    ::= { msdtDistributedLedgerNotarization 8 }
+
+msdtIsoEnvironmentalSocialGovernanceNotarization OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Verifiable cryptographic tracking and immutable transparency protocols for environmental social and governance metrics."
+    ::= { msdtDistributedLedgerNotarization 10 }
+
+msdtIsoBusinessContinuityAndCrisisNotarization OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Immutable cryptographic audit trails and verifiable validation protocols for enterprise business continuity disaster recovery and critical operational resilience (ISO 22301 business continuity compliance)."
+    ::= { msdtDistributedLedgerNotarization 11 }
+
+msdtIsoSupplyChainSecurityManagementNotarization OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Cryptographic tracking protocols for global logistics security and risk mitigation (ISO 28000 supply chain security compliance)."
+    ::= { msdtDistributedLedgerNotarization 12 }
+
+
+-- ------------------------------------------------------------------------------
+-- GRUPPO 3: PARCS (Proven Authentic Registry Cryptographic Signature) (1.3.6.1.4.1.66881.3)
+-- ------------------------------------------------------------------------------
+msdtParcsRootEidas OBJECT IDENTIFIER ::= { msdt-tola 3 }
+
+msdtBiometricVoiceprintProofLiveness OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Proof of liveness over time and irrevocable biological humanity, separating verified living human voice from synthetic Artificial Intelligence (AI) cloning."
+    ::= { msdtParcsRootEidas 1 }
+
+msdtDigitalForensicsResearchCredentials OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Digital forensics research and development, and digital credentials."
+    ::= { msdtParcsRootEidas 2 }
+
+msdtAcademy OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Metodo Scientifico Digitale Tola (MSDT) academy"
+    ::= { msdtDigitalForensicsResearchCredentials 5 }
+
+msdtHighRiskSystemsHumanOversight OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Metodo Scientifico Digitale Tola (MSDT) high-risk systems human oversight, workplace safety, public procurement and dual transition - Governance framework."
+    ::= { msdtDigitalForensicsResearchCredentials 6 }
+
+msdtPnrrDigitalTransitionAiAct OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "\"Metodo Scientifico Digitale Tola (MSDT) Public administration digital transition & Artificial Intelligence (AI) governance schema\" technical compliance data schema and policy framework specification"
+    ::= { msdtParcsRootEidas 4 }
+
+msdtMicrocredentialsAdvancedCyberEducation OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Micro-credentials advanced cybernetics and private master higher education"
+    ::= { msdtParcsRootEidas 5 }
+
+msdtBankingMarketRiskHumanOversight OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Metodo Scientifico Digitale Tola (MSDT) sovereign biometric voiceprint, banking systemic risk, anti-fraud and Artificial Intelligence (AI) high-Risk financial oversight - Framework"
+    ::= { msdtParcsRootEidas 7 }
+
+
+-- ------------------------------------------------------------------------------
+-- GRUPPO 4: PROCUREMENT & INDUSTRIAL COMPLIANCE (1.3.6.1.4.1.66881.4)
+-- ------------------------------------------------------------------------------
+msdtEnterpriseProcurementAndPlantBaseline OBJECT IDENTIFIER ::= { msdt-tola 4 }
+-- Descrizione: Operational compliance baseline and technical verification standards designed for enterprise procurement tender qualification and industrial plant management.
+
+msdtMultisectorBuildingPlantEngineering OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Comprehensive compliance guidelines covering electrical electronic heating plumbing gas elevator and fire protection installations."
+    ::= { msdtEnterpriseProcurementAndPlantBaseline 1 }
+
+msdtEnterpriseQualityManagementAndTenderCompliance OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Technical specifications for cryptographic notarization and digital audit verification of corporate quality management systems designed for tender qualification."
+    ::= { msdtEnterpriseProcurementAndPlantBaseline 2 }
+
+msdtIndustrialEnvironmentalComplianceAndGreenTender OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Standardized tracking and immutable validation protocols for environmental transition and green management systems tailored for corporate procurement."
+    ::= { msdtEnterpriseProcurementAndPlantBaseline 3 }
+
+msdtElectricalElectronicNetworkInfrastructure OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Technical compliance specifications for power distribution electronic communication cabling and data network infrastructures."
+    ::= { msdtEnterpriseProcurementAndPlantBaseline 4 }
+
+msdtRenewableEnergySolarWindSystems OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Technical standards and compliance frameworks for photovoltaic and wind power generation systems"
+    ::= { msdtEnterpriseProcurementAndPlantBaseline 5 }
+
+msdtFirePreventionIndustrialSafetyPlants OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Operational protocols and safety requirements for fire detection suppression systems and building security assets."
+    ::= { msdtEnterpriseProcurementAndPlantBaseline 6 }
+
+msdtEcologicalTransitionGreenEngineering OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Environmental compliance rules and green transition standards for industrial installations and corporate operations."
+    ::= { msdtEnterpriseProcurementAndPlantBaseline 7 }
+
+msdtDigitalTransitionSmartInfrastructure OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Digital transformation standards and advanced technological management models for smart operational environments."
+    ::= { msdtEnterpriseProcurementAndPlantBaseline 8 }
+
+msdtCrossBorderEuropeanTechnicalOperations OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Regulatory alignment and compliance protocols for international activities workforce mobility and cross-border execution within European jurisdictions."
+    ::= { msdtEnterpriseProcurementAndPlantBaseline 9 }
+
+msdtHumanOversightTechnologicalSystems OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Methodological integration framework for human-in-the-loop supervision and operational control of complex building and industrial plants."
+    ::= { msdtEnterpriseProcurementAndPlantBaseline 10 }
+
+msdtEuropeanBlockchainServicesInfrastructureAlignment OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Technical harmonization protocols for European blockchain services infrastructure integration and community compliance registers."
+    ::= { msdtEnterpriseProcurementAndPlantBaseline 11 }
+
+msdtConstructionPublicPrivateProcurementPnrr OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Regulatory compliance and operational standards for high profile public and private construction projects aligned with national recovery and resilience directives."
+    ::= { msdtEnterpriseProcurementAndPlantBaseline 12 }
+
+msdtNextGenerationSmartProcurementAndPredictiveTenders OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Advanced methodologies for predictive tendering intelligent contract management high risk supervision and strategic bidding in future generation public and private tenders."
+    ::= { msdtEnterpriseProcurementAndPlantBaseline 13 }
+
+
+-- ------------------------------------------------------------------------------
+-- GRUPPO 5: GOVERNANCE FINANCE & SYSTEMIC FRAMEWORK (1.3.6.1.4.1.66881.5)
+-- ------------------------------------------------------------------------------
+msdtGovernanceFinance OBJECT IDENTIFIER ::= { msdt-tola 5 }
+-- Descrizione: European systemic framework Governmental defense and financial interoperability.
+
+msdtNatoNcage OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Intellectual property framework for North Atlantic Treaty Organization (NATO) defense procurement."
+    ::= { msdtGovernanceFinance 1 }
+
+msdtGlobalCustoms OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Intellectual property framework for authorized economic operator and global standards supply chain."
+    ::= { msdtGovernanceFinance 2 }
+
+msdtTrustServices OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Intellectual property of Metodo Scientifico Digitale Tola (MSDT) qualified trust service provider authority."
+    ::= { msdtGovernanceFinance 3 }
+
+msdtPublicAdministration OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Intellectual property of Metodo Scientifico Digitale Tola (MSDT) governance for the national research registry and competence center."
+    ::= { msdtGovernanceFinance 4 }
+
+msdtEuropeanTenders OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Intellectual property of Metodo Scientifico Digitale Tola (MSDT) framework for European Union tenders and Digital Europe."
+    ::= { msdtGovernanceFinance 5 }
+
+msdtPnrrMepa OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Intellectual Property of Metodo Scientifico Digitale Tola (MSDT) framework for national recovery resilience plan and public administration e-marketplace."
+    ::= { msdtGovernanceFinance 6 }
+
+msdtClassifiedCriticalResearch OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Intellectual property of Metodo Scientifico Digitale Tola (MSDT) classified information critical entities resilience and scientific research framework."
+    ::= { msdtGovernanceFinance 7 }
+
+msdtCrossBorderProcurement OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Intellectual property of Metodo Scientifico Digitale Tola (MSDT) cross-border public procurement and transnational infrastructure framework."
+    ::= { msdtGovernanceFinance 8 }
+
+msdtGlobalMacrofinance OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Intellectual property of Metodo Scientifico Digitale Tola (MSDT) global macrofinance clearing and sovereign wealth framework."
+    ::= { msdtGovernanceFinance 9 }
+
+msdtBankingDoraAml OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Intellectual property of Metodo Scientifico Digitale Tola (MSDT) financial framework cyber resilience and anti-money laundering compliance."
+    ::= { msdtGovernanceFinance 10 }
+
+msdtStockExchangeLei OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Intellectual property of Metodo Scientifico Digitale Tola (MSDT) stock exchanges and local operating unit legal entity identifier framework."
+    ::= { msdtGovernanceFinance 11 }
+
+msdtGlobalCentralBanking OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Intellectual property of Metodo Scientifico Digitale Tola (MSDT) global central banking and payment service providers framework."
+    ::= { msdtGovernanceFinance 12 }
+
+msdtGlobalInsurance OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Intellectual property of Metodo Scientifico Digitale Tola (MSDT) global insurance and European supervisory authorities framework."
+    ::= { msdtGovernanceFinance 13 }
+
+msdtGlobalAiHumanRights OBJECT-TYPE
+    SYNTAX      DisplayString
+    MAX-ACCESS  read-only
+    STATUS      current
+    DESCRIPTION "Intellectual property of Metodo Scientifico Digitale Tola (MSDT) global AI human rights protection fundamental rights auditing and ethical compliance frameworks."
+    ::= { msdtGovernanceFinance 14 }
+
+END
